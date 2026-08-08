@@ -1,0 +1,501 @@
+customerid,customer_name,country,state,gender,dob,interests,pincode,subscription_start_date,subscription_type,plan_type,contract_type,renewal_date,cancellation_date,cancellation_reason,monthly_charges,cltv,churn_score,churn_flag,ticket_id,complaint_date,escalations,csat_score,complaint_count
+0001-LQYDZ,Kavita Tamang,India,Karnataka,Male,1972-09-23,Sports,560576,2023-07-27,Paid,standard,Annually,2027-07-01,,,26.99,1287.0,1,0,165.0,2026-05-09,N,5.0,1.0
+0002-BMHUM,Gaurav Thapa,Nepal,Lumbini,Male,2002-03-21,"Movies, Sports",32946,2023-11-21,Organic,standard,Annually,2027-03-04,,,26.99,553.0,28,0,,,,,
+0003-FRGBT,Ruhul Singh,Nepal,Koshi,Female,1990-03-20,Sports,56732,2025-09-08,Organic,standard,Annually,2027-05-14,,,27.99,293.0,21,0,,,,,
+0004-XTZNT,Rohan Patel,India,Madhya Pradesh,Female,1977-01-01,Web Series,462841,2025-05-03,Paid,premium,Monthly,2026-09-21,2026-07-08,Too expensive,17.99,464.0,95,1,302.0,2026-07-07,Y,1.0,2.0
+0005-MFNWY,Ruhul Kumar,India,Gujarat,Male,1993-07-10,"Movies, Sports",395075,2025-08-11,Refferal,basic,Monthly,2027-06-17,,,16.99,364.0,9,0,,,,,
+0006-CITDZ,John Sharma,Nepal,Bagmati,Female,1995-04-24,Web Series,44701,2024-02-04,Paid,standard,Monthly,2026-12-21,2026-06-15,Content fatigue,19.99,774.0,83,1,303.0,2026-06-14,Y,1.0,2.0
+0007-XWJAC,Sanjay Patel,Nepal,Bagmati,Male,1984-07-20,"Movies, Sports",44753,2025-02-09,Paid,basic,Monthly,2026-12-17,2026-07-06,Switched to competitor,16.99,1196.0,80,1,304.0,2026-07-02,Y,1.0,2.0
+0008-GUQGV,Sunita Kumar,Nepal,Madhesh,Female,1972-09-04,"Documentaries, Live TV",44386,2026-05-06,Organic,basic,Annually,2026-09-20,2026-04-23,Content fatigue,10.99,711.0,15,1,4.0,2026-03-24,N,1.0,1.0
+0009-RWLTU,Sunita Karki,Nepal,Madhesh,Male,1971-10-27,Sports,44350,2025-04-19,Organic,basic,Monthly,2026-10-03,,,10.99,1510.0,12,0,,,,,
+0010-NAOKU,Neha Lama,India,Kerala,Male,1978-01-18,"Movies, Sports",695587,2025-07-05,Organic,basic,Monthly,2026-07-22,,,26.99,1320.0,30,0,,,,,
+0011-BFWDX,Priya Maharjan,Nepal,Kathmandu,Female,1976-07-07,"Documentaries, Live TV",44672,2026-02-17,Refferal,premium,Annually,2026-12-09,,,28.99,1043.0,18,0,,,,,
+0012-EIQPO,Priya Lama,India,Gujarat,Male,1995-07-13,Web Series,395962,2024-09-19,Refferal,standard,Monthly,2027-05-07,,,24.99,1460.0,30,0,166.0,2025-09-25,N,3.0,1.0
+0013-ZIQQG,Gaurav Thapa,Nepal,Gandaki,Male,1982-04-17,Web Series,33759,2023-08-13,Paid,premium,Annually,2027-06-14,,,28.99,819.0,6,0,,,,,
+0014-ICGAL,Pooja Singh,Nepal,Koshi,Male,1996-01-10,"Documentaries, Live TV",56775,2025-09-02,Paid,premium,Monthly,2027-05-26,2026-05-07,Switched to competitor,19.99,220.0,72,1,5.0,2026-04-06,Y,2.0,1.0
+0015-DFKLV,Rohan Adhikari,India,Delhi,Male,2003-05-30,Sports,110247,2023-11-13,Paid,basic,Annually,2027-03-16,2026-04-08,Too expensive,14.99,353.0,100,1,305.0,2026-03-30,Y,1.0,2.0
+0016-ESTQZ,Sunita Karki,India,Delhi,Male,1977-07-24,"Documentaries, Live TV",110192,2024-09-11,Organic,basic,Annually,2027-05-11,,,15.99,205.0,20,0,,,,,
+0017-VSOJH,Kiran Maharjan,India,Odisha,Female,1996-10-12,"Documentaries, Live TV",751581,2024-06-09,Paid,standard,Monthly,2026-08-13,2026-05-31,Too expensive,28.99,686.0,99,1,7.0,2026-04-05,Y,1.0,1.0
+0018-NXBEI,Neha Kumar,Nepal,Lumbini,Female,1980-04-19,"Movies, Sports",32967,2023-12-04,Refferal,basic,Monthly,2027-02-17,,,13.99,1350.0,16,0,167.0,2026-01-18,N,5.0,1.0
+0019-HTAVE,Sunita Magar,India,Assam,Female,1975-04-16,Sports,781098,2024-12-13,Paid,standard,Monthly,2027-02-07,,,23.99,1284.0,12,0,,,,,
+0020-YFKJQ,Sneha Maharjan,India,Tamil Nadu,Male,1975-12-06,"Documentaries, Live TV",600484,2024-03-30,Organic,basic,Monthly,2026-10-29,,,12.99,1188.0,18,0,168.0,2026-02-16,N,4.0,1.0
+0021-KLGTA,Sarah Lama,Nepal,Koshi,Male,1992-04-01,Web Series,56787,2025-09-01,Refferal,standard,Monthly,2027-05-25,,,9.99,1110.0,10,0,,,,,
+0022-TTLCN,Arjun Lama,India,Maharashtra,Male,2004-04-10,"Documentaries, Live TV",400101,2026-05-16,Organic,basic,Monthly,2026-09-08,2026-04-22,Content fatigue,27.99,1472.0,15,1,8.0,2026-04-19,N,1.0,1.0
+0023-AUGQB,Kavita Joshi,India,Telangana,Male,1983-04-29,"Documentaries, Live TV",500985,2025-10-17,Organic,standard,Annually,2027-04-07,2026-06-30,Switched to competitor,18.99,241.0,20,1,9.0,2026-05-31,N,3.0,1.0
+0024-UTZBP,Amit Yadav,Nepal,Sudurpashchim,Female,1975-04-04,"Movies, Sports",10906,2026-06-11,Organic,premium,Annually,2026-08-13,,,28.99,641.0,24,0,169.0,2025-12-18,N,3.0,1.0
+0025-WDCPV,Priya Joshi,Nepal,Gandaki,Male,1989-09-16,"Movies, Sports",33769,2026-04-14,Paid,standard,Monthly,2026-10-12,,,26.99,1054.0,29,0,,,,,
+0026-RCIHE,Rahul Yadav,Nepal,Gandaki,Female,1975-10-23,"Documentaries, Live TV",33760,2024-02-15,Paid,standard,Annually,2026-12-12,,,10.99,295.0,16,0,170.0,2025-10-21,N,3.0,1.0
+0027-DBPND,Neha Maharjan,Nepal,Madhesh,Male,1977-03-12,Sports,44332,2026-04-21,Paid,basic,Monthly,2026-10-07,,,23.99,118.0,30,0,,,,,
+0028-LXWMA,Kavita Tamang,Nepal,Gandaki,Male,1992-10-15,Sports,33741,2024-01-07,Paid,premium,Monthly,2027-01-16,2026-04-27,Content fatigue,18.99,276.0,84,1,10.0,2026-03-20,Y,2.0,1.0
+0029-IERWL,Sarah Magar,Nepal,Koshi,Female,1981-04-03,"Movies, Sports",56734,2024-05-23,Paid,basic,Monthly,2026-09-03,2026-05-05,Too expensive,24.99,1068.0,76,1,306.0,2026-04-28,Y,1.0,2.0
+0030-AQBHE,Gaurav Gupta,India,Gujarat,Female,1999-10-26,"Documentaries, Live TV",395251,2026-06-10,Paid,basic,Monthly,2026-08-18,,,9.99,696.0,27,0,171.0,2025-11-07,N,5.0,1.0
+0031-FROWJ,Kavita Patel,Nepal,Gandaki,Male,2001-08-24,Sports,33793,2026-04-24,Refferal,basic,Annually,2026-10-04,2026-05-06,Switched to competitor,21.99,1357.0,78,1,307.0,2026-04-27,Y,1.0,2.0
+0032-MICFS,Pooja Gurung,India,Odisha,Male,1986-07-12,Web Series,751174,2023-11-08,Refferal,basic,Monthly,2027-03-17,2026-05-17,Switched to competitor,12.99,1172.0,100,1,13.0,2026-04-03,Y,2.0,1.0
+0033-WUVBU,Amit Kumar,India,Maharashtra,Female,1989-05-05,"Documentaries, Live TV",400519,2026-01-01,Paid,basic,Annually,2027-01-23,2026-04-28,Content fatigue,16.99,847.0,71,1,14.0,2026-03-27,Y,3.0,1.0
+0034-VVMTI,Neha Singh,India,Karnataka,Male,1993-06-01,Web Series,560287,2024-02-16,Organic,standard,Monthly,2026-12-11,,,11.99,114.0,22,0,172.0,2026-07-03,N,5.0,1.0
+0035-MXJCV,Vikram Shah,Nepal,Gandaki,Male,1988-10-08,"Movies, Sports",33779,2023-09-02,Paid,basic,Annually,2027-05-25,,,17.99,1089.0,13,0,173.0,2026-05-10,N,4.0,1.0
+0036-SZFDV,Kiran Shrestha,India,West Bengal,Female,1994-12-22,Web Series,700202,2024-02-10,Organic,basic,Annually,2026-12-11,,,13.99,739.0,29,0,,,,,
+0037-BKRNT,John Patel,Nepal,Bagmati,Female,2001-11-16,Web Series,44775,2026-02-01,Organic,standard,Annually,2026-12-19,2026-07-02,Too expensive,17.99,1577.0,75,1,15.0,2026-06-15,Y,3.0,1.0
+0038-WZURK,Aisha Gupta,Nepal,Karnali,Male,1983-02-07,Sports,21296,2026-03-06,Organic,standard,Annually,2026-11-22,,,24.99,483.0,26,0,,,,,
+0039-FMTZW,Sarah Gurung,India,Madhya Pradesh,Female,1998-05-29,"Movies, Sports",462961,2023-10-03,Refferal,premium,Annually,2027-04-24,2026-07-01,Content fatigue,18.99,1257.0,88,1,16.0,2026-05-28,Y,2.0,1.0
+0040-GOETA,Neha Tamang,Nepal,Sudurpashchim,Female,1997-05-18,Sports,10981,2023-08-12,Refferal,basic,Monthly,2027-06-17,,,19.99,554.0,11,0,,,,,
+0041-MIXHJ,Rohan Magar,Nepal,Gandaki,Male,1992-07-30,Sports,33734,2026-01-11,Refferal,premium,Monthly,2027-01-13,,,15.99,1360.0,7,0,174.0,2026-03-09,N,5.0,1.0
+0042-RHGVK,Priya Tamang,Nepal,Gandaki,Male,1988-11-24,Web Series,33724,2024-07-31,Paid,basic,Annually,2027-06-26,,,9.99,1303.0,19,0,,,,,
+0043-VUNHB,Arjun Tamang,India,Gujarat,Female,1973-12-29,Web Series,395336,2024-11-07,Refferal,premium,Monthly,2027-03-19,,,21.99,182.0,13,0,,,,,
+0044-TPRPM,Priya Chaudhary,Nepal,Lumbini,Male,1993-10-26,"Movies, Sports",32925,2025-12-17,Refferal,basic,Annually,2027-02-05,2026-07-11,Too expensive,21.99,467.0,85,1,17.0,2026-05-19,Y,3.0,1.0
+0045-JZKUX,Arjun Singh,India,Assam,Male,1978-09-27,Web Series,781080,2023-11-03,Paid,premium,Monthly,2027-03-26,,,13.99,882.0,15,0,,,,,
+0046-BDQVN,Kiran Singh,India,Delhi,Female,2004-12-21,Sports,110654,2023-08-13,Paid,basic,Annually,2027-06-12,,,19.99,787.0,27,0,,,,,
+0047-LWVAR,John Karki,Nepal,Sudurpashchim,Female,1978-01-12,Sports,10924,2026-03-12,Paid,standard,Monthly,2026-11-10,2026-07-11,Content fatigue,24.99,1004.0,71,1,18.0,2026-05-12,Y,2.0,1.0
+0048-VOTQJ,Sunita Joshi,Nepal,Gandaki,Male,1980-01-14,Web Series,33776,2026-06-23,Organic,standard,Annually,2026-07-30,2026-05-20,Switched to competitor,15.99,1137.0,95,1,308.0,2026-05-13,Y,1.0,2.0
+0049-TNIYB,Sanjay Adhikari,Nepal,Madhesh,Male,1978-11-05,Sports,44326,2024-01-10,Paid,standard,Annually,2027-01-11,,,27.99,1527.0,22,0,,,,,
+0050-BOAGN,Neha Karki,India,Karnataka,Female,1975-02-10,Web Series,560121,2023-10-02,Refferal,premium,Annually,2027-04-23,2026-04-30,Too expensive,22.99,1021.0,71,1,309.0,2026-04-21,Y,1.0,2.0
+0051-KHEKT,Sneha Singh,India,Delhi,Male,1976-02-12,"Documentaries, Live TV",110891,2025-10-27,Refferal,premium,Monthly,2027-03-30,2026-06-11,Too expensive,12.99,534.0,82,1,310.0,2026-06-08,Y,1.0,2.0
+0052-JLCZR,Kavita Maharjan,India,Karnataka,Male,1974-06-20,Sports,560654,2026-04-01,Paid,basic,Annually,2026-10-25,2026-06-07,Switched to competitor,17.99,1357.0,88,1,311.0,2026-05-31,Y,1.0,2.0
+0053-ANXIO,Pooja Singh,India,Delhi,Male,1979-07-16,"Movies, Sports",110170,2025-07-23,Paid,premium,Monthly,2027-07-06,2026-04-21,Content fatigue,23.99,1004.0,83,1,312.0,2026-04-19,Y,1.0,2.0
+0054-PYMLQ,Sarah Gupta,Nepal,Bagmati,Male,1979-02-25,"Documentaries, Live TV",44703,2023-08-28,Refferal,basic,Monthly,2027-05-30,2026-06-10,Too expensive,12.99,556.0,94,1,24.0,2026-05-29,Y,3.0,1.0
+0055-CLTDP,Rohan Kumar,Nepal,Kathmandu,Female,1988-09-29,"Movies, Sports",44662,2025-11-04,Organic,basic,Monthly,2027-03-20,,,19.99,126.0,5,0,175.0,2026-05-16,N,3.0,1.0
+0056-XRBTL,Sunita Tamang,India,Tamil Nadu,Male,2000-10-25,"Movies, Sports",600159,2025-03-16,Paid,standard,Annually,2026-11-10,,,28.99,1127.0,10,0,176.0,2026-02-12,N,5.0,1.0
+0057-TGSXH,Rahul Karki,Nepal,Kathmandu,Male,1990-06-29,Web Series,44699,2026-05-23,Refferal,basic,Annually,2026-08-30,,,13.99,1049.0,28,0,177.0,2025-11-19,N,5.0,1.0
+0058-WWSJJ,Vikram Joshi,Nepal,Gandaki,Male,1976-06-06,Sports,33772,2024-01-02,Refferal,basic,Annually,2027-01-19,2026-07-11,Too expensive,28.99,771.0,94,1,313.0,2026-07-02,Y,1.0,2.0
+0059-MRQHD,Ravi Lama,Nepal,Madhesh,Male,1983-07-26,Web Series,44308,2025-11-01,Paid,premium,Monthly,2027-03-27,,,10.99,1300.0,18,0,178.0,2026-02-26,N,5.0,1.0
+0060-QONBQ,John Gurung,India,Punjab,Male,1972-07-23,Sports,144234,2024-08-31,Refferal,basic,Monthly,2027-05-22,,,16.99,1492.0,18,0,,,,,
+0061-GTBBR,Rohan Chaudhary,India,Telangana,Female,1973-07-25,Web Series,500546,2025-02-19,Organic,standard,Annually,2026-12-01,2026-07-10,Too expensive,16.99,599.0,93,1,26.0,2026-05-27,Y,1.0,1.0
+0062-QJNJQ,John Lama,Nepal,Gandaki,Female,1985-10-31,Web Series,33792,2023-11-05,Organic,premium,Monthly,2027-03-24,,,17.99,1212.0,26,0,179.0,2026-05-26,N,5.0,1.0
+0063-FZNEV,Rahul Gupta,Nepal,Madhesh,Female,1986-10-06,"Documentaries, Live TV",44394,2026-07-10,Refferal,standard,Monthly,2026-07-19,,,17.99,490.0,21,0,,,,,
+0064-NLPGT,Sneha Thapa,Nepal,Lumbini,Female,1993-11-28,"Movies, Sports",32946,2024-04-01,Refferal,basic,Annually,2026-10-23,,,27.99,589.0,30,0,,,,,
+0065-MUYDG,Pooja Shrestha,Nepal,Madhesh,Female,1988-10-18,"Movies, Sports",44396,2025-04-21,Organic,basic,Annually,2026-10-05,,,10.99,1049.0,17,0,180.0,2026-05-09,N,5.0,1.0
+0066-GDOOC,Amit Rai,India,Kerala,Female,1988-05-10,Web Series,695340,2025-01-10,Refferal,basic,Monthly,2027-01-12,,,26.99,450.0,9,0,181.0,2026-05-13,N,4.0,1.0
+0067-GDKKE,Amit Thapa,Nepal,Lumbini,Female,1988-03-23,Web Series,32976,2026-05-08,Paid,premium,Monthly,2026-09-16,,,10.99,194.0,5,0,182.0,2026-05-01,N,4.0,1.0
+0068-SKMRW,Rahul Sharma,India,Maharashtra,Female,1982-07-21,"Documentaries, Live TV",400671,2024-01-13,Refferal,standard,Monthly,2027-01-08,,,20.99,738.0,67,0,183.0,2025-09-21,Y,5.0,1.0
+0069-ECWZN,Sunita Joshi,India,Kerala,Female,2003-10-12,Sports,695218,2025-08-05,Paid,standard,Monthly,2027-06-17,,,25.99,1508.0,24,0,184.0,2026-01-10,N,5.0,1.0
+0070-CXZVA,Vikram Gupta,Nepal,Madhesh,Male,1984-01-24,Sports,44306,2024-05-12,Organic,basic,Annually,2026-09-12,,,12.99,1059.0,30,0,,,,,
+0071-YZTTY,Priya Thapa,India,Delhi,Male,1973-08-17,Web Series,110351,2025-06-23,Organic,standard,Annually,2026-08-05,,,10.99,1489.0,24,0,185.0,2026-06-02,N,5.0,1.0
+0072-DUXEN,Amit Magar,India,Tamil Nadu,Male,1974-12-25,Sports,600020,2024-12-04,Organic,premium,Monthly,2027-02-20,,,11.99,1348.0,29,0,,,,,
+0073-ZQLZH,Sarah Sharma,India,Odisha,Female,2001-05-04,Sports,751709,2024-11-19,Paid,standard,Annually,2027-03-07,2026-04-15,Too expensive,26.99,521.0,95,1,314.0,2026-04-12,Y,1.0,2.0
+0074-YRZQW,Sanjay Shah,Nepal,Karnali,Male,1999-02-27,"Movies, Sports",21253,2024-12-06,Organic,standard,Monthly,2027-02-20,2026-05-07,Too expensive,13.99,1288.0,76,1,28.0,2026-04-04,Y,2.0,1.0
+0075-EOFJB,Aisha Singh,Nepal,Bagmati,Male,1978-08-17,Sports,44760,2024-12-27,Paid,premium,Monthly,2027-01-30,2026-07-02,Switched to competitor,17.99,656.0,71,1,315.0,2026-06-29,Y,1.0,2.0
+0076-SLOCJ,John Adhikari,Nepal,Bagmati,Male,1992-12-26,Web Series,44747,2026-01-18,Organic,basic,Monthly,2027-01-04,,,24.99,838.0,11,0,,,,,
+0077-TRIKY,Sarah Patel,India,Madhya Pradesh,Female,1991-01-22,Web Series,462708,2025-03-13,Refferal,standard,Annually,2026-11-09,,,24.99,743.0,24,0,186.0,2025-10-11,N,5.0,1.0
+0078-SFADZ,Sarah Smith,Nepal,Koshi,Male,1979-12-07,"Movies, Sports",56726,2025-10-16,Refferal,basic,Monthly,2027-04-10,2026-05-01,Switched to competitor,10.99,546.0,92,1,316.0,2026-04-30,Y,1.0,2.0
+0079-YLHZT,Arjun Sharma,India,Delhi,Female,1992-10-25,Sports,110586,2026-05-16,Refferal,premium,Monthly,2026-09-10,,,18.99,1568.0,4,0,187.0,2026-02-02,N,3.0,1.0
+0080-PPZCR,Sneha Shah,Nepal,Karnali,Male,1976-02-13,Sports,21295,2026-04-10,Organic,basic,Annually,2026-10-14,,,17.99,603.0,23,0,188.0,2026-04-28,N,5.0,1.0
+0081-PUYWJ,John Lama,Nepal,Sudurpashchim,Male,1989-02-05,"Documentaries, Live TV",10965,2025-08-31,Organic,premium,Monthly,2027-05-26,,,15.99,1220.0,26,0,,,,,
+0082-VXCNC,Sneha Rai,India,Gujarat,Female,1983-06-03,Web Series,395155,2025-05-19,Paid,premium,Monthly,2026-09-07,2026-06-15,Too expensive,10.99,222.0,78,1,317.0,2026-06-11,Y,1.0,2.0
+0083-OIFNH,Sneha Sharma,India,Assam,Male,2002-10-04,"Documentaries, Live TV",781618,2026-03-08,Paid,standard,Monthly,2026-11-16,,,17.99,1530.0,21,0,189.0,2026-02-19,N,4.0,1.0
+0084-NYYPO,Kavita Adhikari,India,Rajasthan,Male,1988-04-30,Sports,302353,2024-01-02,Refferal,premium,Monthly,2027-01-23,2026-04-28,Too expensive,12.99,686.0,85,1,32.0,2026-03-11,Y,2.0,1.0
+0085-IPTSA,Rahul Singh,India,Kerala,Female,1972-12-18,"Documentaries, Live TV",695342,2023-10-07,Paid,standard,Monthly,2027-04-18,2026-06-14,Too expensive,26.99,188.0,93,1,318.0,2026-06-12,Y,1.0,2.0
+0086-SLFPG,Sunita Lama,India,Gujarat,Female,2005-07-25,"Movies, Sports",395490,2025-03-21,Paid,premium,Monthly,2026-11-05,,,25.99,442.0,7,0,,,,,
+0087-WAJUH,Gaurav Gurung,Nepal,Bagmati,Male,1982-05-01,"Documentaries, Live TV",44724,2024-11-04,Organic,premium,Annually,2027-03-20,,,20.99,919.0,17,0,190.0,2026-06-16,N,4.0,1.0
+0088-MGVSP,Neha Karki,India,Odisha,Female,1999-08-14,Sports,751505,2026-05-05,Refferal,premium,Monthly,2026-09-17,,,12.99,812.0,29,0,191.0,2026-04-25,N,4.0,1.0
+0089-DDWHG,Vikram Joshi,Nepal,Karnali,Male,2004-01-15,"Documentaries, Live TV",21230,2025-07-20,Organic,standard,Annually,2027-07-05,,,20.99,693.0,3,0,,,,,
+0090-AHAEG,Amit Patel,Nepal,Lumbini,Female,1996-03-09,Sports,32913,2025-04-29,Refferal,standard,Monthly,2026-09-23,,,26.99,1500.0,10,0,,,,,
+0091-WSIMU,Anjali Smith,India,Madhya Pradesh,Female,1979-03-17,Web Series,462577,2023-11-29,Refferal,basic,Annually,2027-02-28,2026-05-19,Too expensive,12.99,235.0,96,1,34.0,2026-04-17,Y,3.0,1.0
+0092-ODJIW,Anjali Shah,India,Punjab,Female,1974-05-11,"Movies, Sports",144559,2026-05-15,Paid,basic,Monthly,2026-09-11,,,21.99,226.0,24,0,,,,,
+0093-AHRXX,Priya Magar,India,Telangana,Male,1997-02-03,"Movies, Sports",500781,2025-03-08,Refferal,basic,Monthly,2026-11-16,2026-05-28,Switched to competitor,16.99,472.0,71,1,35.0,2026-04-22,Y,1.0,1.0
+0094-HRVRW,Aisha Shrestha,Nepal,Bagmati,Male,1993-09-06,"Movies, Sports",44748,2026-05-03,Organic,standard,Annually,2026-09-25,,,25.99,243.0,7,0,192.0,2026-04-12,N,5.0,1.0
+0095-JKARE,John Sharma,Nepal,Bagmati,Female,1971-02-09,Sports,44760,2024-11-24,Refferal,standard,Annually,2027-02-28,,,28.99,1305.0,10,0,,,,,
+0096-TWIII,Sarah Thapa,Nepal,Koshi,Female,1994-11-06,Sports,56754,2026-01-28,Organic,premium,Monthly,2026-12-29,,,10.99,452.0,17,0,193.0,2026-02-26,N,3.0,1.0
+0097-HMDJO,Aisha Smith,Nepal,Kathmandu,Male,1976-12-31,Web Series,44622,2025-02-03,Organic,standard,Annually,2026-12-19,,,15.99,1411.0,25,0,194.0,2026-06-25,N,4.0,1.0
+0098-QBPNT,Rohan Magar,Nepal,Lumbini,Male,1973-07-29,"Documentaries, Live TV",32981,2024-10-23,Organic,premium,Annually,2027-04-05,,,15.99,285.0,23,0,195.0,2025-11-05,N,4.0,1.0
+0099-EBLQM,Gaurav Maharjan,Nepal,Koshi,Female,1997-01-02,"Movies, Sports",56714,2024-01-21,Paid,basic,Annually,2027-01-06,,,19.99,413.0,7,0,196.0,2026-03-21,N,3.0,1.0
+0100-JGPTX,Ruhul Karki,India,Odisha,Male,1974-07-24,"Documentaries, Live TV",751791,2024-05-17,Organic,basic,Annually,2026-09-05,,,22.99,147.0,18,0,197.0,2026-03-22,N,4.0,1.0
+0101-MUZBX,Sunita Joshi,India,Maharashtra,Male,1987-04-12,"Documentaries, Live TV",400865,2024-05-24,Organic,basic,Annually,2026-09-02,,,16.99,769.0,28,0,,,,,
+0102-WWRBL,Kiran Shrestha,Nepal,Koshi,Male,1986-07-16,"Documentaries, Live TV",56728,2025-09-10,Refferal,premium,Annually,2027-05-12,,,12.99,523.0,20,0,198.0,2026-02-08,N,5.0,1.0
+0103-RWKXH,Priya Adhikari,Nepal,Lumbini,Male,1984-08-06,Web Series,32901,2024-10-12,Organic,basic,Monthly,2027-04-10,2026-05-11,Content fatigue,17.99,510.0,91,1,36.0,2026-04-20,Y,2.0,1.0
+0104-LKVOP,Neha Yadav,India,Madhya Pradesh,Male,1978-12-07,"Movies, Sports",462686,2026-07-05,Paid,premium,Annually,2026-07-18,,,21.99,979.0,10,0,199.0,2026-05-06,N,4.0,1.0
+0105-NFHSL,Priya Tamang,Nepal,Koshi,Male,1972-05-21,Sports,56740,2025-12-25,Organic,basic,Annually,2027-01-26,2026-04-10,Too expensive,22.99,1207.0,77,1,37.0,2026-02-15,Y,3.0,1.0
+0106-KDUVO,Rahul Gupta,India,Delhi,Female,1975-07-20,Web Series,110587,2023-11-03,Refferal,standard,Monthly,2027-03-22,2026-04-07,Content fatigue,11.99,598.0,74,1,38.0,2026-04-04,Y,1.0,1.0
+0107-HPJJU,Amit Maharjan,India,Uttar Pradesh,Male,1978-11-26,Web Series,226795,2025-09-26,Paid,premium,Annually,2027-04-30,,,21.99,807.0,28,0,,,,,
+0108-PXXUR,Aisha Singh,Nepal,Kathmandu,Female,1984-06-23,Web Series,44636,2024-07-23,Organic,premium,Monthly,2027-07-02,,,26.99,564.0,28,0,,,,,
+0109-CHOXA,Sarah Yadav,India,Uttar Pradesh,Female,1993-07-04,Sports,226979,2026-03-04,Refferal,standard,Monthly,2026-11-20,,,13.99,1162.0,11,0,,,,,
+0110-FSTKQ,Sanjay Sharma,Nepal,Madhesh,Male,1987-01-28,"Documentaries, Live TV",44312,2025-07-04,Organic,premium,Monthly,2026-07-19,,,15.99,574.0,29,0,,,,,
+0111-OAACG,Kiran Gupta,India,Delhi,Male,2005-11-30,"Movies, Sports",110954,2024-09-16,Paid,basic,Annually,2027-05-12,,,22.99,111.0,17,0,200.0,2025-10-25,N,5.0,1.0
+0112-ZJBHO,Anjali Chaudhary,Nepal,Gandaki,Female,1986-01-05,"Movies, Sports",33730,2025-09-25,Organic,basic,Annually,2027-05-01,2026-05-25,Too expensive,17.99,1363.0,79,1,39.0,2026-03-29,Y,2.0,1.0
+0113-AZZYK,Sanjay Shrestha,India,Maharashtra,Male,1979-06-28,Web Series,400162,2025-09-01,Refferal,premium,Annually,2027-05-27,,,12.99,577.0,13,0,,,,,
+0114-CWEYE,Kavita Tamang,Nepal,Gandaki,Male,1972-05-22,Web Series,33787,2025-12-28,Refferal,standard,Annually,2027-01-29,,,11.99,1587.0,2,0,,,,,
+0115-NIJFA,Amit Thapa,India,Assam,Female,1983-12-05,Web Series,781144,2025-08-20,Paid,premium,Annually,2027-06-04,,,9.99,695.0,2,0,,,,,
+0116-BMWYM,Rahul Patel,Nepal,Kathmandu,Male,2004-08-09,Sports,44643,2026-02-04,Organic,basic,Annually,2026-12-20,,,9.99,1057.0,21,0,201.0,2025-10-22,N,5.0,1.0
+0117-KABJS,Sunita Singh,India,Telangana,Female,2001-04-17,Sports,500404,2026-06-28,Paid,basic,Annually,2026-07-31,2026-05-06,Switched to competitor,9.99,1267.0,85,1,319.0,2026-05-05,Y,1.0,2.0
+0118-SGWPH,Sanjay Sharma,India,Bihar,Female,1984-01-03,"Movies, Sports",800874,2023-10-15,Paid,premium,Monthly,2027-04-08,,,14.99,874.0,3,0,,,,,
+0119-SSLHE,Ruhul Yadav,Nepal,Bagmati,Female,1983-01-09,Sports,44761,2024-10-01,Refferal,basic,Annually,2027-04-21,,,27.99,191.0,17,0,,,,,
+0120-YCQDA,Ruhul Yadav,India,Karnataka,Female,1999-06-17,Sports,560368,2025-12-25,Organic,premium,Monthly,2027-01-26,,,18.99,656.0,65,0,202.0,2026-06-26,Y,4.0,1.0
+0121-BNLHJ,Anjali Patel,India,Telangana,Male,1977-07-02,"Documentaries, Live TV",500447,2026-04-21,Paid,basic,Annually,2026-10-07,2026-05-18,Content fatigue,11.99,773.0,93,1,41.0,2026-05-07,Y,3.0,1.0
+0122-HWXXC,Aisha Lama,Nepal,Gandaki,Male,1978-04-04,Sports,33793,2026-07-12,Paid,basic,Monthly,2027-07-11,,,14.99,140.0,27,0,203.0,2025-09-27,N,3.0,1.0
+0123-FYIKT,Priya Karki,India,Telangana,Male,2004-07-24,"Movies, Sports",500926,2024-12-06,Paid,premium,Monthly,2027-02-16,,,16.99,1342.0,19,0,,,,,
+0124-RUBGU,Aisha Joshi,Nepal,Sudurpashchim,Male,1984-04-24,Sports,10934,2024-03-19,Refferal,standard,Monthly,2026-11-09,2026-07-09,Switched to competitor,21.99,722.0,83,1,320.0,2026-07-08,Y,1.0,2.0
+0125-KTAGQ,Ruhul Chaudhary,India,Karnataka,Male,1984-07-09,"Documentaries, Live TV",560588,2023-12-30,Paid,standard,Annually,2027-01-22,,,22.99,155.0,6,0,,,,,
+0126-RBNMZ,Aisha Chaudhary,Nepal,Lumbini,Female,1986-12-30,Web Series,32942,2024-07-19,Paid,basic,Monthly,2027-07-10,2026-06-11,Switched to competitor,25.99,1248.0,18,1,43.0,2026-06-10,N,3.0,1.0
+0127-BWGVF,John Gupta,India,Bihar,Male,1983-11-04,"Movies, Sports",800614,2025-10-31,Refferal,premium,Monthly,2027-03-28,,,17.99,1502.0,3,0,,,,,
+0128-EKKLY,Sneha Rai,Nepal,Sudurpashchim,Female,1978-10-08,"Documentaries, Live TV",10946,2025-02-02,Organic,premium,Monthly,2026-12-18,,,14.99,1460.0,6,0,,,,,
+0129-OBDCP,Aisha Gurung,India,Gujarat,Male,1982-12-15,"Documentaries, Live TV",395589,2024-01-09,Refferal,basic,Annually,2027-01-12,2026-05-04,Switched to competitor,15.99,1031.0,74,1,321.0,2026-04-30,Y,1.0,2.0
+0130-FDGQA,Amit Smith,India,Bihar,Female,1981-09-10,"Documentaries, Live TV",800474,2024-06-10,Refferal,standard,Annually,2026-08-16,2026-04-08,Content fatigue,26.99,1443.0,85,1,45.0,2026-03-17,Y,3.0,1.0
+0131-AXDNP,Vikram Kumar,Nepal,Madhesh,Female,1989-11-02,"Documentaries, Live TV",44345,2025-11-07,Organic,premium,Annually,2027-03-19,2026-04-28,Switched to competitor,19.99,1205.0,100,1,322.0,2026-04-18,Y,1.0,2.0
+0132-QYNBA,Arjun Karki,Nepal,Gandaki,Male,1978-05-21,"Movies, Sports",33740,2025-09-14,Organic,premium,Annually,2027-05-12,,,28.99,1369.0,12,0,,,,,
+0133-HWUDX,Rahul Adhikari,India,Kerala,Male,2000-05-02,"Documentaries, Live TV",695989,2024-11-19,Paid,basic,Monthly,2027-03-03,2026-06-13,Switched to competitor,22.99,1432.0,88,1,47.0,2026-05-30,Y,1.0,1.0
+0134-PMRXZ,Anjali Adhikari,India,Gujarat,Male,2005-12-02,"Movies, Sports",395409,2025-07-13,Refferal,basic,Annually,2026-07-14,2026-06-10,Too expensive,12.99,1239.0,74,1,48.0,2026-05-05,Y,3.0,1.0
+0135-TFDFM,Kiran Maharjan,India,Karnataka,Female,1974-04-01,Sports,560162,2026-01-16,Paid,premium,Annually,2027-01-04,,,19.99,1549.0,10,0,,,,,
+0136-KAZPY,Rohan Shah,Nepal,Sudurpashchim,Female,1983-02-05,Web Series,10921,2024-09-21,Paid,standard,Annually,2027-05-05,2026-05-06,Content fatigue,9.99,263.0,98,1,323.0,2026-05-03,Y,1.0,2.0
+0137-ZIXLH,Pooja Gurung,India,Maharashtra,Male,1976-11-09,"Documentaries, Live TV",400016,2023-09-08,Paid,basic,Annually,2027-05-19,,,27.99,271.0,24,0,,,,,
+0138-TDHWS,Sarah Yadav,India,Madhya Pradesh,Female,1995-10-17,"Movies, Sports",462051,2024-12-06,Refferal,basic,Annually,2027-02-18,,,18.99,833.0,1,0,,,,,
+0139-AGYCZ,Gaurav Shrestha,Nepal,Bagmati,Female,1982-03-23,"Movies, Sports",44776,2023-07-19,Refferal,premium,Monthly,2027-07-05,,,22.99,560.0,26,0,,,,,
+0140-DRTJO,Aisha Karki,India,Tamil Nadu,Male,1972-01-22,Web Series,600052,2026-03-10,Organic,basic,Annually,2026-11-18,2026-05-11,Too expensive,11.99,215.0,100,1,324.0,2026-05-04,Y,1.0,2.0
+0141-TKKZT,John Adhikari,India,Assam,Male,1981-04-04,Web Series,781842,2026-03-03,Paid,standard,Annually,2026-11-19,,,13.99,1563.0,21,0,,,,,
+0142-JYNHC,Ravi Smith,Nepal,Bagmati,Male,1993-02-12,Sports,44761,2025-11-06,Organic,basic,Monthly,2027-03-20,,,25.99,342.0,2,0,,,,,
+0143-MBBFB,Kavita Singh,Nepal,Kathmandu,Female,1999-11-15,Sports,44607,2025-01-07,Organic,basic,Annually,2027-01-17,,,13.99,1385.0,28,0,,,,,
+0144-XVYIK,John Karki,India,Rajasthan,Male,1976-03-28,"Movies, Sports",302604,2024-10-19,Refferal,basic,Monthly,2027-04-09,,,18.99,748.0,30,0,204.0,2025-11-22,N,4.0,1.0
+0145-FYKYQ,Ruhul Patel,Nepal,Bagmati,Female,1993-01-16,"Movies, Sports",44737,2024-10-17,Organic,premium,Monthly,2027-04-09,,,25.99,1146.0,6,0,205.0,2026-02-11,N,4.0,1.0
+0146-SPHAA,Sarah Gurung,India,Rajasthan,Female,2000-09-16,"Movies, Sports",302031,2025-05-14,Paid,basic,Monthly,2026-09-12,2026-05-06,Switched to competitor,10.99,1506.0,96,1,325.0,2026-04-27,Y,1.0,2.0
+0147-HSICI,Amit Gurung,Nepal,Bagmati,Female,1972-07-22,Web Series,44764,2025-04-14,Refferal,premium,Monthly,2026-10-14,2026-05-11,Too expensive,10.99,152.0,100,1,52.0,2026-04-19,Y,2.0,1.0
+0148-MFYSZ,Kiran Thapa,India,Bihar,Female,1989-08-09,Web Series,800956,2023-10-22,Organic,standard,Monthly,2027-04-07,,,23.99,432.0,19,0,,,,,
+0149-EOQZW,Priya Maharjan,Nepal,Karnali,Female,2002-11-15,Web Series,21231,2023-12-11,Refferal,standard,Monthly,2027-02-10,2026-06-04,Switched to competitor,19.99,732.0,84,1,326.0,2026-05-28,Y,1.0,2.0
+0150-GWTPS,Sarah Kumar,Nepal,Madhesh,Male,2001-04-06,Web Series,44352,2024-02-02,Organic,standard,Annually,2026-12-19,2026-07-07,Too expensive,15.99,1231.0,91,1,54.0,2026-05-13,Y,1.0,1.0
+0151-CVEQO,Pooja Shrestha,India,Gujarat,Female,1994-07-23,Sports,395904,2024-12-20,Organic,basic,Annually,2027-01-31,,,20.99,1023.0,4,0,,,,,
+0152-YNHEZ,Pooja Joshi,India,Delhi,Female,1993-09-05,"Movies, Sports",110130,2023-08-12,Refferal,standard,Monthly,2027-06-11,,,23.99,1052.0,18,0,,,,,
+0153-POKWQ,Sarah Karki,Nepal,Bagmati,Male,1983-12-06,"Documentaries, Live TV",44794,2023-08-23,Refferal,basic,Annually,2027-05-31,2026-04-25,Content fatigue,17.99,1527.0,85,1,55.0,2026-03-31,Y,2.0,1.0
+0154-BHJNJ,Neha Karki,Nepal,Karnali,Male,1996-02-29,"Documentaries, Live TV",21225,2024-08-18,Organic,premium,Annually,2027-06-08,,,21.99,1155.0,21,0,,,,,
+0155-EKATQ,Arjun Gurung,Nepal,Lumbini,Female,1983-02-20,"Documentaries, Live TV",32957,2024-04-30,Organic,basic,Monthly,2026-09-24,,,15.99,420.0,6,0,206.0,2025-10-20,N,4.0,1.0
+0156-CSAPU,Aisha Gupta,India,Delhi,Male,1980-10-28,"Documentaries, Live TV",110863,2026-01-15,Refferal,standard,Annually,2027-01-07,2026-04-06,Switched to competitor,12.99,123.0,77,1,327.0,2026-03-30,Y,1.0,2.0
+0157-TZMAA,John Smith,India,Assam,Male,1985-02-21,"Movies, Sports",781986,2024-08-24,Refferal,premium,Monthly,2027-06-04,,,9.99,1204.0,10,0,,,,,
+0158-ASSIP,Ravi Shrestha,India,Odisha,Female,1978-08-28,"Movies, Sports",751051,2025-04-21,Organic,premium,Annually,2026-10-01,,,16.99,741.0,18,0,207.0,2026-03-08,N,4.0,1.0
+0159-MKSBX,Kiran Maharjan,Nepal,Madhesh,Female,1972-07-02,Sports,44307,2025-04-07,Paid,standard,Monthly,2026-10-15,,,15.99,312.0,24,0,208.0,2026-07-03,N,4.0,1.0
+0160-ZUEAZ,Sarah Sharma,India,Kerala,Male,1989-05-11,Web Series,695876,2024-09-19,Organic,standard,Monthly,2027-05-05,,,25.99,1190.0,1,0,,,,,
+0161-WIJWD,Rahul Gurung,India,Kerala,Male,1978-12-17,Web Series,695250,2024-11-23,Paid,basic,Monthly,2027-03-01,,,16.99,934.0,26,0,,,,,
+0162-TCSBG,Kavita Lama,Nepal,Lumbini,Male,1978-03-05,"Movies, Sports",32958,2025-01-26,Refferal,standard,Annually,2026-12-25,2026-06-01,Switched to competitor,27.99,1525.0,96,1,57.0,2026-05-17,Y,2.0,1.0
+0163-JKDCB,Rohan Joshi,India,Rajasthan,Male,1993-10-26,"Documentaries, Live TV",302393,2025-10-29,Refferal,premium,Annually,2027-03-30,,,23.99,101.0,13,0,209.0,2026-03-05,N,5.0,1.0
+0164-DBPHK,Neha Smith,India,Bihar,Female,1997-12-14,Sports,800094,2025-07-24,Refferal,premium,Monthly,2027-07-05,,,27.99,970.0,7,0,,,,,
+0165-OZQHK,Rohan Rai,Nepal,Koshi,Male,1978-12-28,"Documentaries, Live TV",56751,2024-01-07,Paid,standard,Annually,2027-01-20,2026-06-07,Content fatigue,22.99,1491.0,97,1,58.0,2026-04-26,Y,3.0,1.0
+0166-SZSLV,Ruhul Chaudhary,India,Gujarat,Female,1988-01-20,Web Series,395908,2025-05-10,Refferal,standard,Annually,2026-09-18,,,22.99,787.0,5,0,,,,,
+0167-PDHUY,Amit Adhikari,Nepal,Bagmati,Female,1974-07-26,"Documentaries, Live TV",44736,2024-10-05,Paid,basic,Annually,2027-04-21,,,10.99,997.0,16,0,,,,,
+0168-ZWNOK,Neha Kumar,India,Uttar Pradesh,Female,1984-06-17,"Movies, Sports",226151,2024-07-14,Organic,basic,Monthly,2027-07-09,,,21.99,1102.0,5,0,,,,,
+0169-LNBAU,Priya Thapa,Nepal,Bagmati,Male,1999-04-03,"Movies, Sports",44748,2025-12-18,Paid,standard,Annually,2027-02-06,,,12.99,1403.0,25,0,210.0,2026-05-07,N,5.0,1.0
+0170-QQTUX,Ruhul Gupta,India,West Bengal,Female,2004-01-15,Sports,700488,2024-01-24,Paid,basic,Monthly,2027-01-01,2026-05-30,Switched to competitor,14.99,896.0,82,1,328.0,2026-05-24,Y,1.0,2.0
+0171-BTLPF,Neha Yadav,Nepal,Kathmandu,Male,2004-03-22,Sports,44692,2024-02-25,Organic,premium,Monthly,2026-11-28,2026-05-16,Content fatigue,15.99,1446.0,100,1,329.0,2026-05-10,Y,1.0,2.0
+0172-ASTPY,Ruhul Sharma,Nepal,Karnali,Male,1983-04-09,"Movies, Sports",21214,2025-11-25,Organic,standard,Annually,2027-02-25,,,15.99,445.0,15,0,,,,,
+0173-EIHMY,Pooja Shah,India,Telangana,Female,1998-08-23,"Documentaries, Live TV",500163,2025-07-26,Paid,basic,Monthly,2027-06-29,,,19.99,464.0,22,0,,,,,
+0174-HTEIY,Pooja Singh,India,Uttar Pradesh,Male,1979-12-06,"Movies, Sports",226223,2024-10-22,Organic,basic,Monthly,2027-04-04,,,26.99,1512.0,15,0,,,,,
+0175-TQTCG,Aisha Joshi,India,Karnataka,Male,1976-04-10,"Documentaries, Live TV",560140,2025-03-17,Organic,basic,Annually,2026-11-09,,,15.99,1515.0,24,0,,,,,
+0176-KMXRJ,Sarah Chaudhary,Nepal,Sudurpashchim,Male,1975-06-25,"Movies, Sports",10995,2023-11-04,Paid,premium,Monthly,2027-03-23,2026-04-24,Too expensive,23.99,350.0,75,1,330.0,2026-04-18,Y,1.0,2.0
+0177-TTLFM,Pooja Maharjan,India,Rajasthan,Female,1990-07-19,"Movies, Sports",302636,2025-11-19,Paid,premium,Monthly,2027-03-05,,,11.99,340.0,25,0,,,,,
+0178-NXJQE,Kavita Shrestha,Nepal,Bagmati,Male,1975-08-22,Web Series,44719,2023-08-28,Organic,standard,Monthly,2027-05-30,,,25.99,1046.0,22,0,211.0,2025-10-10,N,3.0,1.0
+0179-XCJOT,Sneha Singh,Nepal,Bagmati,Female,1997-12-01,"Movies, Sports",44736,2026-04-29,Organic,standard,Annually,2026-09-29,,,25.99,817.0,21,0,212.0,2026-03-07,N,4.0,1.0
+0180-RCKRU,Vikram Joshi,India,Karnataka,Female,1980-01-16,"Movies, Sports",560858,2024-07-07,Refferal,basic,Annually,2026-07-16,2026-05-19,Switched to competitor,18.99,675.0,73,1,331.0,2026-05-12,Y,1.0,2.0
+0181-SIFXU,Kavita Kumar,Nepal,Lumbini,Male,1979-07-13,"Documentaries, Live TV",32959,2023-08-19,Organic,premium,Monthly,2027-06-06,2026-06-30,Content fatigue,16.99,922.0,73,1,63.0,2026-05-17,Y,2.0,1.0
+0182-RKTUQ,Priya Kumar,Nepal,Lumbini,Female,1978-11-15,Sports,32950,2025-08-28,Refferal,premium,Annually,2027-05-25,2026-04-26,Switched to competitor,22.99,837.0,74,1,332.0,2026-04-19,Y,1.0,2.0
+0183-LQFGN,Sunita Lama,India,Karnataka,Male,1973-03-19,Web Series,560350,2024-12-09,Organic,premium,Annually,2027-02-13,,,25.99,867.0,29,0,213.0,2025-11-27,N,5.0,1.0
+0184-UAOHE,Sanjay Magar,India,Madhya Pradesh,Male,2001-01-10,Web Series,462309,2026-05-16,Paid,basic,Annually,2026-09-10,,,12.99,1069.0,21,0,,,,,
+0185-RQFOB,Vikram Yadav,India,Punjab,Female,1994-06-20,"Documentaries, Live TV",144036,2026-02-28,Refferal,standard,Annually,2026-11-24,,,9.99,769.0,9,0,,,,,
+0186-DBPNE,Sneha Patel,India,Karnataka,Male,1979-01-17,Sports,560921,2025-01-03,Refferal,premium,Monthly,2027-01-23,2026-07-09,Switched to competitor,19.99,1522.0,88,1,65.0,2026-06-08,Y,1.0,1.0
+0187-CYELV,John Kumar,Nepal,Sudurpashchim,Male,1989-01-16,"Documentaries, Live TV",10961,2025-12-02,Paid,standard,Annually,2027-02-20,2026-06-06,Too expensive,28.99,959.0,6,1,66.0,2026-05-05,N,2.0,1.0
+0188-SQQAV,Vikram Rai,Nepal,Koshi,Male,1992-01-07,"Movies, Sports",56764,2024-11-01,Organic,basic,Monthly,2027-03-25,,,17.99,454.0,15,0,214.0,2025-12-13,N,3.0,1.0
+0189-ZWFOM,Priya Adhikari,India,Madhya Pradesh,Female,1988-06-19,Sports,462054,2025-09-27,Organic,standard,Monthly,2027-05-01,,,21.99,822.0,2,0,,,,,
+0190-CNCJN,Kiran Patel,Nepal,Lumbini,Male,1983-11-04,"Documentaries, Live TV",32904,2025-03-11,Refferal,standard,Monthly,2026-11-11,2026-04-26,Too expensive,20.99,102.0,100,1,67.0,2026-03-05,Y,1.0,1.0
+0191-EOAHB,John Thapa,Nepal,Gandaki,Female,1974-05-19,"Documentaries, Live TV",33720,2023-07-24,Paid,basic,Monthly,2027-07-02,,,26.99,560.0,64,0,215.0,2025-12-28,Y,4.0,1.0
+0192-EQTEU,Amit Smith,Nepal,Madhesh,Female,1981-12-21,Web Series,44346,2025-09-10,Refferal,basic,Monthly,2027-05-16,,,27.99,636.0,16,0,216.0,2026-02-21,N,4.0,1.0
+0193-JKHAU,Kavita Adhikari,Nepal,Madhesh,Female,1992-03-06,Sports,44319,2025-05-27,Organic,standard,Annually,2026-09-01,,,26.99,901.0,11,0,217.0,2025-12-08,N,5.0,1.0
+0194-KEYHE,Pooja Sharma,India,Tamil Nadu,Female,2001-05-09,"Movies, Sports",600988,2023-10-12,Organic,standard,Monthly,2027-04-15,2026-04-16,Switched to competitor,14.99,822.0,97,1,68.0,2026-04-02,Y,2.0,1.0
+0195-IZVPG,John Lama,India,Karnataka,Male,1982-07-26,"Documentaries, Live TV",560529,2024-11-17,Organic,basic,Annually,2027-03-11,,,21.99,973.0,5,0,218.0,2026-06-19,N,5.0,1.0
+0196-MFIIZ,John Shah,Nepal,Bagmati,Male,1980-01-16,"Documentaries, Live TV",44757,2024-09-26,Refferal,basic,Monthly,2027-04-26,,,14.99,508.0,7,0,219.0,2026-04-27,N,5.0,1.0
+0197-HKXFV,Neha Magar,India,Tamil Nadu,Female,1976-06-04,Sports,600897,2025-05-13,Organic,premium,Annually,2026-09-09,,,11.99,1475.0,21,0,,,,,
+0198-TCCLT,Arjun Gupta,Nepal,Koshi,Male,1985-12-25,"Movies, Sports",56754,2024-10-09,Paid,standard,Annually,2027-04-19,2026-05-19,Content fatigue,14.99,1073.0,82,1,69.0,2026-03-26,Y,1.0,1.0
+0199-IVSNJ,Gaurav Tamang,Nepal,Gandaki,Female,1981-11-03,Sports,33704,2024-01-29,Refferal,standard,Annually,2026-12-29,,,14.99,425.0,26,0,220.0,2026-04-15,N,5.0,1.0
+0200-FXVFV,Gaurav Thapa,India,Gujarat,Female,1993-07-23,Web Series,395563,2025-06-05,Refferal,standard,Monthly,2026-08-19,2026-04-07,Content fatigue,9.99,1090.0,90,1,333.0,2026-04-04,Y,1.0,2.0
+0201-GUHYP,Ruhul Shah,India,Odisha,Female,2003-07-19,Web Series,751403,2026-03-17,Organic,basic,Annually,2026-11-07,2026-06-26,Switched to competitor,14.99,1023.0,77,1,71.0,2026-05-07,Y,3.0,1.0
+0202-DYNHQ,Kavita Patel,Nepal,Lumbini,Female,2002-05-23,Web Series,32963,2024-06-09,Organic,basic,Monthly,2026-08-17,,,13.99,1052.0,22,0,221.0,2026-06-15,N,3.0,1.0
+0203-SSXET,Sunita Adhikari,Nepal,Sudurpashchim,Female,1984-10-19,"Documentaries, Live TV",10926,2023-10-22,Organic,standard,Annually,2027-04-01,,,27.99,735.0,4,0,222.0,2026-03-05,N,5.0,1.0
+0204-XQHIH,Kiran Thapa,India,Uttar Pradesh,Male,1986-10-23,Sports,226324,2024-11-29,Organic,standard,Annually,2027-02-23,2026-04-19,Too expensive,27.99,1447.0,73,1,72.0,2026-03-23,Y,3.0,1.0
+0205-GERBJ,John Tamang,India,Punjab,Male,1973-04-30,"Movies, Sports",144031,2024-07-10,Refferal,premium,Monthly,2026-07-17,2026-04-23,Switched to competitor,16.99,1598.0,86,1,334.0,2026-04-18,Y,1.0,2.0
+0206-SCLSK,Arjun Thapa,Nepal,Bagmati,Female,2001-06-05,"Movies, Sports",44792,2024-08-24,Organic,basic,Monthly,2027-05-29,,,22.99,998.0,10,0,223.0,2026-06-06,N,4.0,1.0
+0207-YUONT,Aisha Thapa,India,Odisha,Female,2004-05-25,Web Series,751835,2023-09-21,Organic,premium,Annually,2027-05-06,2026-06-14,Too expensive,26.99,121.0,100,1,74.0,2026-05-23,Y,3.0,1.0
+0208-RKMQJ,John Smith,Nepal,Sudurpashchim,Male,1988-05-13,"Movies, Sports",10919,2024-02-28,Organic,basic,Annually,2026-11-23,,,12.99,821.0,17,0,224.0,2025-11-12,N,5.0,1.0
+0209-JYHQN,Aisha Rai,Nepal,Bagmati,Male,1981-07-16,"Documentaries, Live TV",44797,2023-09-15,Organic,standard,Monthly,2027-05-10,2026-06-02,Switched to competitor,23.99,118.0,91,1,75.0,2026-04-12,Y,3.0,1.0
+0210-HBHDN,Amit Chaudhary,Nepal,Lumbini,Female,1995-09-09,"Documentaries, Live TV",32903,2024-02-06,Paid,standard,Monthly,2026-12-15,,,11.99,854.0,54,0,225.0,2025-10-28,Y,5.0,1.0
+0211-JWRCQ,Sarah Shah,Nepal,Bagmati,Female,1985-08-29,"Movies, Sports",44715,2024-02-10,Organic,basic,Monthly,2026-12-11,2026-06-20,Too expensive,13.99,578.0,89,1,76.0,2026-06-07,Y,2.0,1.0
+0212-HFAXG,Kiran Lama,Nepal,Sudurpashchim,Male,1980-05-22,"Movies, Sports",10975,2026-06-18,Refferal,basic,Annually,2026-08-08,,,23.99,1249.0,13,0,,,,,
+0213-YTJCH,Ruhul Magar,India,Assam,Female,2003-12-13,Web Series,781143,2025-02-26,Organic,basic,Annually,2026-11-28,2026-05-14,Too expensive,17.99,373.0,73,1,335.0,2026-05-09,Y,1.0,2.0
+0214-DXVFP,Kavita Joshi,Nepal,Lumbini,Male,1984-01-31,"Documentaries, Live TV",32913,2024-07-24,Refferal,basic,Monthly,2027-07-01,,,9.99,872.0,21,0,226.0,2026-07-13,N,5.0,1.0
+0215-RRDDF,Sunita Shah,Nepal,Koshi,Female,1972-08-23,Sports,56707,2024-11-26,Refferal,premium,Annually,2027-02-24,,,23.99,461.0,7,0,,,,,
+0216-PMYJH,Sarah Shah,Nepal,Lumbini,Male,1971-06-27,Web Series,32969,2024-10-23,Paid,basic,Annually,2027-04-03,,,10.99,283.0,20,0,227.0,2026-04-03,N,3.0,1.0
+0217-YVSIW,Rohan Thapa,Nepal,Gandaki,Male,1974-03-20,Web Series,33769,2023-08-04,Refferal,standard,Annually,2027-06-25,,,12.99,317.0,30,0,228.0,2026-06-04,N,4.0,1.0
+0218-XZBXT,Neha Karki,Nepal,Kathmandu,Female,1978-12-07,"Documentaries, Live TV",44684,2024-09-11,Refferal,basic,Monthly,2027-05-15,2026-06-10,Too expensive,16.99,1388.0,89,1,78.0,2026-06-02,Y,1.0,1.0
+0219-BDZXY,Arjun Shah,Nepal,Gandaki,Male,1999-03-25,Web Series,33784,2026-06-10,Paid,standard,Annually,2026-08-14,,,24.99,1351.0,4,0,229.0,2026-05-19,N,4.0,1.0
+0220-FWREE,Sarah Chaudhary,Nepal,Kathmandu,Male,2002-10-18,"Documentaries, Live TV",44678,2026-01-26,Refferal,standard,Monthly,2026-12-25,2026-05-27,Switched to competitor,9.99,1030.0,96,1,336.0,2026-05-21,Y,1.0,2.0
+0221-NNXHM,Pooja Shrestha,India,Telangana,Male,1996-05-08,Web Series,500325,2026-04-08,Paid,premium,Annually,2026-10-20,,,19.99,325.0,11,0,230.0,2025-11-21,N,3.0,1.0
+0222-LJGEX,Aisha Joshi,India,Delhi,Female,1976-06-24,"Documentaries, Live TV",110266,2025-03-29,Organic,premium,Annually,2026-10-24,,,20.99,1349.0,23,0,,,,,
+0223-IWRYF,Gaurav Smith,Nepal,Koshi,Male,1979-03-24,"Movies, Sports",56777,2024-08-30,Paid,premium,Annually,2027-05-23,,,24.99,325.0,26,0,,,,,
+0224-RMUNS,Sarah Magar,Nepal,Lumbini,Female,1974-09-05,"Movies, Sports",32917,2024-06-10,Organic,standard,Annually,2026-08-16,,,24.99,1209.0,14,0,,,,,
+0225-QSZMD,Anjali Shrestha,India,Madhya Pradesh,Female,1996-06-03,"Documentaries, Live TV",462803,2024-02-24,Organic,premium,Annually,2026-11-27,,,25.99,717.0,6,0,231.0,2026-07-05,N,4.0,1.0
+0226-UBVPH,Sanjay Adhikari,India,Karnataka,Male,1975-05-10,"Movies, Sports",560286,2023-11-10,Refferal,premium,Annually,2027-03-19,,,13.99,681.0,9,0,,,,,
+0227-JLJMR,Amit Tamang,India,Uttar Pradesh,Male,1974-04-05,Web Series,226132,2025-06-08,Refferal,premium,Annually,2026-08-18,,,13.99,309.0,7,0,232.0,2026-05-26,N,4.0,1.0
+0228-UGPBX,Arjun Smith,India,Rajasthan,Male,1984-01-01,"Documentaries, Live TV",302041,2024-10-10,Paid,basic,Monthly,2027-04-12,,,26.99,204.0,5,0,,,,,
+0229-SNPLC,Sunita Maharjan,Nepal,Madhesh,Female,1972-06-18,Sports,44338,2025-06-16,Organic,basic,Monthly,2026-08-12,2026-04-04,Switched to competitor,23.99,714.0,94,1,80.0,2026-03-24,Y,2.0,1.0
+0230-QLZDI,Anjali Tamang,India,Karnataka,Male,1996-03-29,"Movies, Sports",560457,2026-06-08,Organic,basic,Monthly,2026-08-16,2026-05-05,Content fatigue,13.99,204.0,85,1,337.0,2026-04-25,Y,1.0,2.0
+0231-VLPYL,Amit Gurung,Nepal,Kathmandu,Female,1979-01-03,"Movies, Sports",44672,2025-09-16,Refferal,basic,Annually,2027-05-08,,,10.99,373.0,21,0,,,,,
+0232-IXEJD,Aisha Singh,Nepal,Kathmandu,Female,2000-05-21,Sports,44694,2024-11-21,Refferal,standard,Annually,2027-03-05,,,22.99,785.0,3,0,,,,,
+0233-NLJRD,Anjali Singh,India,Punjab,Female,1991-02-20,Sports,144913,2025-12-21,Refferal,premium,Annually,2027-02-03,,,21.99,225.0,10,0,,,,,
+0234-YNHHR,Ravi Chaudhary,Nepal,Gandaki,Female,1999-10-11,"Documentaries, Live TV",33779,2026-06-14,Paid,premium,Monthly,2026-08-08,,,15.99,1248.0,9,0,233.0,2025-12-15,N,5.0,1.0
+0235-YPXXS,Vikram Smith,Nepal,Karnali,Female,1977-05-01,"Documentaries, Live TV",21262,2024-04-24,Organic,premium,Monthly,2026-09-30,2026-05-25,Too expensive,10.99,612.0,78,1,82.0,2026-05-23,Y,1.0,1.0
+0236-MMOOX,Kavita Maharjan,India,Rajasthan,Female,1999-05-16,"Movies, Sports",302719,2023-11-20,Refferal,basic,Monthly,2027-03-07,,,10.99,1240.0,30,0,,,,,
+0237-LKEPF,Sneha Yadav,India,Madhya Pradesh,Male,1982-08-08,"Movies, Sports",462188,2023-08-13,Organic,premium,Annually,2027-06-16,,,16.99,1335.0,16,0,,,,,
+0238-HNPLC,Sanjay Shrestha,Nepal,Bagmati,Male,2002-03-07,Sports,44726,2024-09-17,Organic,standard,Annually,2027-05-11,,,15.99,1427.0,16,0,234.0,2026-04-30,N,4.0,1.0
+0239-RUWKF,Pooja Yadav,India,Bihar,Female,1986-02-15,"Documentaries, Live TV",800124,2023-09-23,Organic,premium,Monthly,2027-05-04,,,22.99,1142.0,21,0,235.0,2026-02-06,N,3.0,1.0
+0240-XTRYL,Aisha Lama,Nepal,Bagmati,Female,1977-05-30,Web Series,44778,2025-03-03,Refferal,basic,Monthly,2026-11-21,,,20.99,1360.0,8,0,,,,,
+0241-RMAHM,Pooja Singh,India,Tamil Nadu,Female,1995-12-29,"Documentaries, Live TV",600512,2024-01-20,Organic,basic,Annually,2027-01-07,2026-04-16,Too expensive,22.99,853.0,73,1,83.0,2026-03-17,Y,1.0,1.0
+0242-OVOJU,Neha Smith,India,Telangana,Male,1978-10-11,Sports,500989,2025-09-07,Organic,premium,Annually,2027-05-21,,,28.99,1371.0,4,0,,,,,
+0243-LAWFD,Sarah Joshi,Nepal,Kathmandu,Male,1971-09-04,Web Series,44684,2024-09-15,Refferal,standard,Monthly,2027-05-11,,,24.99,318.0,21,0,,,,,
+0244-LGGPM,Kavita Yadav,Nepal,Madhesh,Male,1994-11-12,Sports,44334,2024-03-21,Paid,basic,Annually,2026-11-07,,,22.99,401.0,8,0,236.0,2026-06-22,N,3.0,1.0
+0245-IGHKE,Amit Tamang,Nepal,Karnali,Female,1974-03-01,Sports,21285,2025-06-07,Refferal,basic,Monthly,2026-08-21,2026-06-04,Too expensive,19.99,772.0,75,1,84.0,2026-05-08,Y,3.0,1.0
+0246-DLGFL,Neha Singh,Nepal,Gandaki,Female,2003-11-20,Web Series,33739,2025-02-28,Refferal,basic,Annually,2026-11-26,2026-06-15,Switched to competitor,20.99,1071.0,14,1,85.0,2026-05-02,N,2.0,1.0
+0247-SVDVA,Priya Magar,Nepal,Karnali,Female,1995-09-12,Web Series,21250,2025-03-09,Refferal,premium,Annually,2026-11-13,2026-04-14,Switched to competitor,18.99,707.0,98,1,86.0,2026-04-12,Y,2.0,1.0
+0248-IRSIL,John Maharjan,Nepal,Madhesh,Male,1992-08-16,Sports,44344,2023-11-02,Organic,premium,Monthly,2027-03-27,,,16.99,772.0,15,0,,,,,
+0249-TEUII,Neha Adhikari,India,Punjab,Female,2002-04-18,Web Series,144264,2024-12-08,Organic,premium,Annually,2027-02-16,2026-05-14,Too expensive,14.99,1197.0,89,1,338.0,2026-05-08,Y,1.0,2.0
+0250-QNLFC,Ruhul Adhikari,India,Tamil Nadu,Male,1990-10-20,Sports,600170,2024-01-27,Paid,basic,Monthly,2026-12-31,2026-05-18,Content fatigue,15.99,740.0,95,1,339.0,2026-05-16,Y,1.0,2.0
+0251-AEVHN,John Patel,Nepal,Gandaki,Male,1971-04-18,Web Series,33797,2024-10-17,Refferal,basic,Monthly,2027-04-09,,,17.99,364.0,11,0,,,,,
+0252-IUKLA,Ruhul Tamang,India,Assam,Male,1999-01-17,"Documentaries, Live TV",781283,2026-05-24,Refferal,basic,Annually,2026-09-02,,,26.99,809.0,17,0,,,,,
+0253-KIYGT,Kavita Thapa,India,Rajasthan,Male,1998-10-24,"Documentaries, Live TV",302588,2025-12-04,Paid,standard,Monthly,2027-02-20,,,14.99,1498.0,29,0,,,,,
+0254-LNQLX,Rahul Rai,Nepal,Kathmandu,Female,1984-07-01,"Movies, Sports",44641,2025-07-25,Paid,premium,Annually,2027-07-04,,,16.99,1279.0,24,0,,,,,
+0255-QAPPC,Sunita Maharjan,India,Bihar,Female,1985-01-26,"Movies, Sports",800755,2024-04-09,Refferal,basic,Annually,2026-10-17,,,19.99,305.0,30,0,,,,,
+0256-NXPZB,Rahul Tamang,India,Madhya Pradesh,Male,1974-05-10,"Documentaries, Live TV",462210,2026-05-01,Refferal,basic,Monthly,2026-09-23,,,22.99,342.0,23,0,237.0,2026-01-05,N,4.0,1.0
+0257-LAWKP,Priya Kumar,Nepal,Koshi,Female,1980-11-11,"Documentaries, Live TV",56763,2024-07-10,Refferal,premium,Monthly,2026-07-17,,,14.99,422.0,10,0,238.0,2026-02-06,N,5.0,1.0
+0258-ONYNZ,Vikram Maharjan,India,Karnataka,Female,1976-08-08,"Documentaries, Live TV",560138,2024-11-26,Paid,premium,Monthly,2027-03-02,,,28.99,898.0,17,0,239.0,2026-05-19,N,3.0,1.0
+0259-QCEDS,Kavita Shrestha,Nepal,Bagmati,Male,1976-05-01,"Movies, Sports",44713,2025-05-06,Refferal,premium,Monthly,2026-09-22,,,22.99,276.0,10,0,,,,,
+0260-CDGIZ,Sneha Rai,Nepal,Madhesh,Male,1976-11-03,"Documentaries, Live TV",44334,2025-06-02,Organic,standard,Monthly,2026-08-24,2026-07-09,Too expensive,16.99,1082.0,100,1,340.0,2026-07-02,Y,1.0,2.0
+0261-UPTSF,Vikram Yadav,India,Uttar Pradesh,Female,1984-02-09,Sports,226279,2025-04-20,Organic,premium,Monthly,2026-10-04,2026-04-11,Content fatigue,18.99,244.0,93,1,90.0,2026-02-24,Y,1.0,1.0
+0262-SUWNU,Pooja Singh,Nepal,Lumbini,Female,1974-06-11,Sports,32902,2026-02-26,Paid,standard,Annually,2026-11-28,,,18.99,451.0,12,0,,,,,
+0263-QLKKO,Amit Rai,Nepal,Karnali,Male,2003-08-08,Web Series,21250,2025-03-04,Organic,premium,Monthly,2026-11-20,2026-05-04,Switched to competitor,14.99,1264.0,94,1,341.0,2026-04-26,Y,1.0,2.0
+0264-ZLWLF,Vikram Lama,India,West Bengal,Female,1974-05-17,Sports,700694,2025-09-05,Paid,premium,Annually,2027-05-19,,,22.99,169.0,30,0,,,,,
+0265-DCGUN,Neha Thapa,India,Bihar,Female,1999-08-15,Sports,800442,2025-06-01,Organic,basic,Annually,2026-08-27,2026-06-28,Content fatigue,25.99,1177.0,77,1,342.0,2026-06-21,Y,1.0,2.0
+0266-GEGXV,Priya Lama,Nepal,Bagmati,Male,1974-11-07,Web Series,44794,2024-03-31,Refferal,premium,Monthly,2026-10-24,,,21.99,1586.0,3,0,,,,,
+0267-IAKRS,Amit Kumar,Nepal,Koshi,Male,1990-08-29,"Movies, Sports",56764,2024-04-15,Organic,standard,Annually,2026-10-11,,,22.99,541.0,13,0,,,,,
+0268-CTNAV,Sneha Thapa,India,Telangana,Female,1996-01-25,"Movies, Sports",500019,2025-04-12,Refferal,basic,Annually,2026-10-12,2026-07-07,Too expensive,20.99,487.0,72,1,343.0,2026-07-04,Y,1.0,2.0
+0269-BEGAC,Gaurav Singh,India,Rajasthan,Female,1994-11-23,"Movies, Sports",302398,2025-07-10,Organic,basic,Annually,2026-07-15,2026-06-26,Too expensive,15.99,1571.0,6,1,94.0,2026-06-19,N,2.0,1.0
+0270-XMMAM,Amit Lama,Nepal,Gandaki,Female,1987-02-05,Web Series,33737,2024-12-02,Refferal,premium,Annually,2027-02-22,2026-04-23,Content fatigue,13.99,1379.0,100,1,95.0,2026-03-01,Y,2.0,1.0
+0271-BEUNJ,Sanjay Karki,India,West Bengal,Male,1976-12-09,Web Series,700691,2024-03-17,Refferal,basic,Annually,2026-11-09,2026-04-28,Too expensive,28.99,823.0,80,1,96.0,2026-03-31,Y,3.0,1.0
+0272-JEVPA,Sarah Lama,India,West Bengal,Female,1976-04-03,"Movies, Sports",700332,2024-02-10,Organic,premium,Annually,2026-12-15,2026-05-22,Too expensive,17.99,1303.0,89,1,97.0,2026-04-07,Y,3.0,1.0
+0273-UXZYV,John Yadav,Nepal,Sudurpashchim,Female,2002-10-09,Sports,10954,2023-11-24,Refferal,basic,Annually,2027-03-01,2026-06-22,Too expensive,24.99,1133.0,94,1,98.0,2026-05-01,Y,1.0,1.0
+0274-CQENM,Kiran Kumar,Nepal,Madhesh,Female,1999-12-29,"Movies, Sports",44304,2025-05-08,Refferal,standard,Monthly,2026-09-16,2026-07-08,Too expensive,12.99,1486.0,78,1,99.0,2026-05-09,Y,1.0,1.0
+0275-FBOVY,Ruhul Gurung,India,Madhya Pradesh,Male,1980-12-12,"Movies, Sports",462561,2024-04-24,Organic,premium,Monthly,2026-10-04,,,25.99,1532.0,17,0,240.0,2025-09-24,N,5.0,1.0
+0276-CWXPU,Vikram Lama,India,Tamil Nadu,Male,1971-09-22,Web Series,600550,2024-09-16,Refferal,premium,Annually,2027-05-06,,,15.99,607.0,12,0,,,,,
+0277-INJON,Gaurav Karki,India,Assam,Male,1991-02-20,"Movies, Sports",781537,2025-05-05,Refferal,standard,Monthly,2026-09-17,2026-05-16,Switched to competitor,9.99,1196.0,73,1,100.0,2026-04-09,Y,2.0,1.0
+0278-MTDBZ,Kiran Yadav,India,Delhi,Female,1993-06-16,Sports,110254,2025-07-13,Refferal,premium,Annually,2026-07-14,,,26.99,1317.0,14,0,241.0,2026-07-08,N,3.0,1.0
+0279-LHQKF,Rahul Lama,Nepal,Sudurpashchim,Female,1976-01-20,Web Series,10976,2023-09-05,Refferal,standard,Annually,2027-05-20,,,28.99,1277.0,25,0,,,,,
+0280-UEBKJ,Sneha Magar,Nepal,Koshi,Female,1997-06-16,Web Series,56725,2025-03-17,Refferal,basic,Monthly,2026-11-11,,,21.99,596.0,12,0,,,,,
+0281-UXBKA,Rahul Gupta,India,Bihar,Female,1973-03-17,Sports,800401,2023-10-12,Organic,premium,Annually,2027-04-11,,,25.99,733.0,23,0,242.0,2025-12-01,N,5.0,1.0
+0282-VGVSV,Rahul Rai,Nepal,Lumbini,Male,1988-09-11,"Movies, Sports",32954,2025-02-13,Organic,standard,Annually,2026-12-07,,,24.99,455.0,23,0,,,,,
+0283-QVELH,Rohan Singh,India,Assam,Female,1977-01-10,"Documentaries, Live TV",781955,2024-12-08,Paid,standard,Annually,2027-02-12,2026-04-18,Switched to competitor,12.99,1173.0,90,1,101.0,2026-03-01,Y,1.0,1.0
+0284-ZTFRB,Amit Smith,India,West Bengal,Male,1978-11-21,"Movies, Sports",700251,2025-12-22,Refferal,standard,Monthly,2027-02-02,,,25.99,1434.0,21,0,,,,,
+0285-RZPSX,Neha Smith,India,Rajasthan,Female,1989-02-01,"Documentaries, Live TV",302791,2025-12-28,Paid,standard,Monthly,2027-01-29,,,18.99,202.0,5,0,,,,,
+0286-ZSHXN,Pooja Joshi,India,Maharashtra,Female,1980-12-06,Web Series,400144,2024-11-17,Organic,standard,Monthly,2027-03-11,,,14.99,578.0,18,0,,,,,
+0287-JRCOZ,Gaurav Gupta,Nepal,Koshi,Female,1977-08-29,Sports,56782,2024-07-12,Organic,standard,Annually,2027-07-11,,,18.99,873.0,13,0,,,,,
+0288-OSOGN,Gaurav Karki,India,Gujarat,Female,1980-07-12,"Movies, Sports",395460,2025-10-10,Paid,premium,Annually,2027-04-12,,,20.99,155.0,6,0,,,,,
+0289-OCIBX,Vikram Gupta,India,Karnataka,Female,2003-01-31,Sports,560954,2024-10-16,Refferal,premium,Monthly,2027-04-12,,,25.99,674.0,18,0,,,,,
+0290-GFFEB,Priya Yadav,Nepal,Kathmandu,Female,2001-08-10,Sports,44680,2025-03-01,Organic,standard,Monthly,2026-11-21,2026-06-05,Switched to competitor,17.99,974.0,79,1,102.0,2026-04-17,Y,1.0,1.0
+0291-LCHBF,Aisha Yadav,India,Punjab,Female,1987-04-05,"Movies, Sports",144156,2026-05-06,Paid,standard,Annually,2026-09-22,,,14.99,1389.0,3,0,,,,,
+0292-LGBIQ,Ruhul Gurung,Nepal,Bagmati,Male,1978-04-21,Sports,44718,2025-01-12,Paid,standard,Annually,2027-01-10,,,9.99,161.0,28,0,243.0,2025-10-18,N,4.0,1.0
+0293-KMEAG,Sanjay Magar,India,Punjab,Female,1989-09-16,Sports,144461,2026-05-31,Paid,premium,Monthly,2026-08-24,,,17.99,274.0,30,0,,,,,
+0294-VSCLJ,Priya Karki,Nepal,Lumbini,Male,1987-10-26,Sports,32996,2024-10-27,Paid,premium,Monthly,2027-04-01,,,22.99,1506.0,10,0,,,,,
+0295-QHJTP,Vikram Sharma,India,Bihar,Male,1973-08-04,"Documentaries, Live TV",800189,2024-07-18,Paid,premium,Monthly,2027-07-09,,,28.99,736.0,8,0,,,,,
+0296-UFYMR,Ruhul Patel,India,Karnataka,Female,1978-05-15,Web Series,560504,2026-04-22,Paid,standard,Monthly,2026-10-06,2026-04-09,Too expensive,28.99,184.0,30,1,103.0,2026-02-20,N,3.0,1.0
+0297-PCFLH,Arjun Shah,Nepal,Madhesh,Female,2002-01-31,Web Series,44349,2026-06-09,Refferal,standard,Annually,2026-08-19,,,21.99,917.0,22,0,,,,,
+0298-VPYOY,Anjali Rai,Nepal,Sudurpashchim,Male,1974-09-13,Web Series,10936,2026-05-17,Paid,standard,Annually,2026-09-07,,,12.99,1281.0,10,0,,,,,
+0299-LFQXC,Kiran Karki,India,Odisha,Female,1985-05-31,"Movies, Sports",751674,2024-09-24,Refferal,standard,Annually,2027-05-04,2026-05-14,Too expensive,15.99,525.0,91,1,104.0,2026-04-29,Y,1.0,1.0
+0300-MYPPT,John Lama,India,Delhi,Male,1995-04-12,Sports,110208,2023-08-06,Organic,basic,Annually,2027-06-21,,,11.99,373.0,13,0,,,,,
+0301-JHTEM,Sunita Singh,India,Delhi,Male,1996-02-07,Web Series,110931,2025-12-07,Paid,basic,Annually,2027-02-15,,,23.99,1335.0,24,0,,,,,
+0302-QUWYQ,Ravi Gupta,Nepal,Bagmati,Female,2004-08-20,"Movies, Sports",44737,2025-08-31,Refferal,basic,Annually,2027-05-26,2026-04-20,Content fatigue,13.99,417.0,84,1,344.0,2026-04-17,Y,1.0,2.0
+0303-TQUXB,Kavita Rai,India,Telangana,Female,1981-07-10,"Movies, Sports",500871,2024-09-02,Refferal,basic,Annually,2027-05-24,,,27.99,1543.0,29,0,,,,,
+0304-WSLNF,Kiran Shrestha,Nepal,Karnali,Male,1979-04-20,Sports,21250,2023-12-27,Organic,premium,Annually,2027-01-25,,,27.99,1331.0,3,0,244.0,2025-11-01,N,5.0,1.0
+0305-CQDIW,Sneha Shrestha,Nepal,Madhesh,Male,2005-11-13,"Documentaries, Live TV",44360,2025-04-10,Organic,basic,Monthly,2026-10-14,2026-04-11,Content fatigue,27.99,642.0,77,1,106.0,2026-02-15,Y,1.0,1.0
+0306-UWLGW,Ruhul Sharma,Nepal,Karnali,Female,1992-10-08,Web Series,21271,2026-04-22,Paid,premium,Annually,2026-09-30,2026-05-23,Too expensive,27.99,517.0,12,1,107.0,2026-05-12,N,1.0,1.0
+0307-QOQJJ,Ruhul Adhikari,India,Delhi,Female,2000-04-04,Sports,110381,2024-04-24,Refferal,standard,Monthly,2026-09-28,2026-06-04,Too expensive,26.99,592.0,81,1,108.0,2026-04-23,Y,2.0,1.0
+0308-WMLMB,John Adhikari,India,Telangana,Female,1999-02-13,Web Series,500559,2025-06-16,Paid,standard,Monthly,2026-08-10,2026-05-29,Content fatigue,19.99,598.0,76,1,345.0,2026-05-23,Y,1.0,2.0
+0309-HENNM,Priya Adhikari,India,Delhi,Male,1981-02-10,"Documentaries, Live TV",110633,2025-03-13,Paid,standard,Annually,2026-11-13,2026-04-19,Switched to competitor,25.99,1417.0,82,1,110.0,2026-03-29,Y,3.0,1.0
+0310-NVLMK,Vikram Sharma,India,Maharashtra,Female,1974-10-05,"Movies, Sports",400155,2026-04-04,Organic,standard,Monthly,2026-10-24,,,19.99,1558.0,11,0,,,,,
+0311-RWMLQ,Kavita Maharjan,Nepal,Lumbini,Male,1999-02-18,Sports,32919,2025-08-29,Organic,standard,Monthly,2027-05-24,,,16.99,238.0,10,0,,,,,
+0312-EYJXI,Pooja Joshi,Nepal,Karnali,Female,2004-04-08,Sports,21275,2023-10-09,Paid,standard,Annually,2027-04-16,,,28.99,1049.0,18,0,,,,,
+0313-IMQCR,Kiran Rai,Nepal,Karnali,Female,1986-07-05,Web Series,21276,2024-03-06,Paid,premium,Monthly,2026-11-20,,,14.99,1084.0,9,0,245.0,2026-03-22,N,5.0,1.0
+0314-YPTEA,Amit Shah,India,Punjab,Female,1995-09-13,"Documentaries, Live TV",144932,2026-02-19,Paid,standard,Monthly,2026-12-03,,,15.99,428.0,27,0,,,,,
+0315-DRILP,Amit Kumar,Nepal,Karnali,Male,2001-06-13,"Documentaries, Live TV",21238,2024-08-16,Paid,premium,Annually,2027-06-06,2026-07-03,Too expensive,24.99,339.0,6,1,111.0,2026-06-01,N,3.0,1.0
+0316-YGMHK,Ruhul Yadav,Nepal,Sudurpashchim,Male,1983-08-23,Web Series,10937,2025-06-26,Paid,premium,Monthly,2026-07-27,,,10.99,684.0,23,0,,,,,
+0317-RJYVI,Ravi Karki,India,Delhi,Male,1994-10-12,Web Series,110239,2026-03-16,Organic,basic,Annually,2026-11-12,,,27.99,959.0,9,0,,,,,
+0318-EBZHH,John Lama,India,Telangana,Female,2002-05-31,Sports,500855,2024-08-17,Refferal,standard,Annually,2027-06-11,,,21.99,245.0,16,0,246.0,2025-12-17,N,5.0,1.0
+0319-EITXK,Gaurav Smith,Nepal,Madhesh,Male,1981-08-19,"Movies, Sports",44326,2025-03-26,Organic,standard,Monthly,2026-10-31,,,22.99,1068.0,28,0,247.0,2026-05-13,N,4.0,1.0
+0320-XFPJJ,Kavita Gurung,Nepal,Koshi,Male,1976-10-27,"Movies, Sports",56786,2025-12-29,Organic,standard,Annually,2027-01-28,,,11.99,397.0,22,0,248.0,2026-03-13,N,5.0,1.0
+0321-DGLFJ,Amit Joshi,India,Tamil Nadu,Female,1988-01-18,Sports,600569,2024-05-25,Organic,basic,Annually,2026-08-28,,,15.99,801.0,14,0,,,,,
+0322-ESXUL,Neha Magar,India,Karnataka,Male,2001-08-09,"Documentaries, Live TV",560107,2025-11-25,Refferal,premium,Annually,2027-02-25,2026-06-29,Switched to competitor,26.99,1537.0,83,1,346.0,2026-06-19,Y,1.0,2.0
+0323-PRBCJ,Rahul Sharma,Nepal,Lumbini,Male,1979-03-13,Web Series,32923,2025-02-13,Organic,basic,Annually,2026-12-11,,,17.99,687.0,1,0,249.0,2026-02-03,N,5.0,1.0
+0324-QACMR,Ruhul Chaudhary,India,West Bengal,Female,2004-05-19,Web Series,700167,2026-02-01,Refferal,standard,Annually,2026-12-21,,,26.99,693.0,17,0,,,,,
+0325-MGNGD,Sanjay Magar,India,Assam,Female,1985-04-06,"Documentaries, Live TV",781946,2025-07-26,Organic,basic,Monthly,2027-06-27,2026-05-03,Switched to competitor,21.99,520.0,98,1,347.0,2026-04-29,Y,1.0,2.0
+0326-VAFWA,Sunita Magar,Nepal,Madhesh,Male,2003-11-16,Sports,44348,2024-05-08,Organic,basic,Monthly,2026-09-16,,,20.99,484.0,25,0,,,,,
+0327-DOQMK,Rahul Karki,Nepal,Koshi,Male,1983-10-20,Sports,56745,2024-02-26,Organic,premium,Annually,2026-11-25,,,12.99,747.0,6,0,250.0,2025-11-04,N,3.0,1.0
+0328-MWNPR,Arjun Gupta,Nepal,Sudurpashchim,Male,1993-11-20,Web Series,10935,2025-12-13,Refferal,standard,Annually,2027-02-07,,,21.99,1133.0,2,0,,,,,
+0329-PQVFX,Neha Karki,Nepal,Kathmandu,Male,1986-01-11,"Documentaries, Live TV",44653,2025-09-06,Organic,basic,Annually,2027-05-20,,,25.99,335.0,19,0,251.0,2026-05-26,N,4.0,1.0
+0330-MREKZ,Anjali Shah,Nepal,Koshi,Female,2000-08-28,Web Series,56799,2023-09-07,Organic,basic,Monthly,2027-05-16,,,28.99,180.0,24,0,252.0,2026-05-23,N,3.0,1.0
+0331-BPAIS,Ravi Chaudhary,Nepal,Karnali,Male,1978-02-13,Sports,21237,2025-05-28,Organic,premium,Annually,2026-08-25,2026-04-29,Switched to competitor,14.99,665.0,80,1,348.0,2026-04-22,Y,1.0,2.0
+0332-NNIGO,Rahul Patel,Nepal,Bagmati,Male,1973-06-25,Web Series,44701,2025-02-12,Refferal,standard,Annually,2026-12-08,,,22.99,569.0,16,0,253.0,2025-11-06,N,5.0,1.0
+0333-GKLSF,Kiran Magar,India,Rajasthan,Female,1985-06-29,Web Series,302721,2024-09-11,Refferal,premium,Monthly,2027-05-11,2026-06-24,Switched to competitor,18.99,358.0,89,1,349.0,2026-06-22,Y,1.0,2.0
+0334-EMBAE,Ruhul Karki,Nepal,Lumbini,Female,2001-10-07,"Documentaries, Live TV",32945,2024-10-15,Organic,standard,Monthly,2027-04-13,2026-06-19,Switched to competitor,28.99,860.0,98,1,116.0,2026-05-14,Y,2.0,1.0
+0335-UAPMG,Vikram Joshi,Nepal,Madhesh,Female,1976-10-28,Sports,44340,2025-07-09,Organic,premium,Annually,2026-07-18,,,15.99,921.0,21,0,,,,,
+0336-YNKUS,Sneha Sharma,Nepal,Bagmati,Female,1980-11-29,"Documentaries, Live TV",44740,2025-05-23,Paid,premium,Monthly,2026-09-05,2026-06-19,Content fatigue,17.99,1288.0,15,1,117.0,2026-06-18,N,1.0,1.0
+0337-TRTFY,Ravi Lama,India,West Bengal,Female,1978-08-15,"Documentaries, Live TV",700188,2024-11-09,Refferal,basic,Annually,2027-03-19,,,23.99,599.0,17,0,,,,,
+0338-HLIDQ,Sneha Gurung,India,Odisha,Female,1988-06-03,Web Series,751635,2024-09-08,Paid,premium,Annually,2027-05-18,,,26.99,363.0,1,0,,,,,
+0339-XRWAY,Rahul Shrestha,Nepal,Lumbini,Female,1988-07-23,"Movies, Sports",32904,2025-10-11,Organic,premium,Annually,2027-04-17,2026-05-11,Too expensive,15.99,207.0,90,1,118.0,2026-05-08,Y,3.0,1.0
+0340-QCKHS,Amit Singh,Nepal,Madhesh,Female,2002-01-05,"Documentaries, Live TV",44396,2026-07-03,Refferal,basic,Monthly,2026-07-20,,,12.99,1016.0,21,0,254.0,2026-05-19,N,5.0,1.0
+0341-QJEGW,Sneha Yadav,Nepal,Madhesh,Female,1987-01-07,"Movies, Sports",44337,2026-07-03,Paid,standard,Monthly,2026-07-20,2026-05-20,Content fatigue,10.99,1008.0,98,1,119.0,2026-05-14,Y,3.0,1.0
+0342-TGXEB,Arjun Gurung,Nepal,Koshi,Female,1972-03-29,"Documentaries, Live TV",56788,2024-05-13,Organic,premium,Annually,2026-09-09,,,15.99,509.0,4,0,255.0,2026-04-18,N,4.0,1.0
+0343-BBXGY,Anjali Kumar,Nepal,Gandaki,Female,1992-12-01,Sports,33796,2026-04-17,Organic,standard,Monthly,2026-10-11,,,15.99,1524.0,22,0,256.0,2026-04-02,N,5.0,1.0
+0344-PQXOC,Kavita Adhikari,Nepal,Kathmandu,Male,1994-06-13,"Documentaries, Live TV",44664,2024-05-15,Organic,basic,Annually,2026-09-11,2026-04-12,Content fatigue,19.99,103.0,76,1,350.0,2026-04-11,Y,1.0,2.0
+0345-MDYXU,Sanjay Adhikari,India,Punjab,Female,1995-10-08,Web Series,144747,2025-10-21,Organic,basic,Monthly,2027-04-03,2026-05-05,Content fatigue,11.99,992.0,29,1,121.0,2026-04-16,N,2.0,1.0
+0346-PQIPJ,Ruhul Singh,Nepal,Gandaki,Female,1992-07-02,Sports,33735,2026-01-09,Refferal,standard,Annually,2027-01-13,,,12.99,375.0,25,0,257.0,2025-12-18,N,4.0,1.0
+0347-HAQVJ,Kavita Magar,India,Telangana,Female,1980-05-21,"Movies, Sports",500230,2025-05-05,Refferal,basic,Monthly,2026-09-21,2026-04-07,Content fatigue,27.99,1554.0,75,1,351.0,2026-03-28,Y,1.0,2.0
+0348-BUZUP,Rohan Magar,India,Delhi,Male,1979-04-25,"Documentaries, Live TV",110318,2025-10-08,Refferal,premium,Monthly,2027-04-18,,,16.99,1318.0,63,0,258.0,2025-09-29,Y,5.0,1.0
+0349-WKORU,Sarah Patel,Nepal,Koshi,Male,1997-04-02,"Movies, Sports",56746,2023-12-22,Paid,standard,Monthly,2027-01-30,,,18.99,834.0,21,0,,,,,
+0350-WYWRV,Rohan Yadav,India,Tamil Nadu,Female,1980-10-14,"Movies, Sports",600000,2025-02-06,Organic,premium,Annually,2026-12-18,,,26.99,227.0,17,0,259.0,2025-09-19,N,4.0,1.0
+0351-JFARX,Pooja Singh,India,Uttar Pradesh,Male,2002-03-18,Sports,226411,2023-11-03,Paid,premium,Annually,2027-03-24,,,20.99,803.0,24,0,,,,,
+0352-XWSQV,Ravi Adhikari,Nepal,Madhesh,Male,1973-03-22,Web Series,44370,2025-11-22,Organic,premium,Monthly,2027-02-28,2026-04-22,Switched to competitor,10.99,244.0,73,1,352.0,2026-04-16,Y,1.0,2.0
+0353-TXVBZ,Ruhul Yadav,Nepal,Kathmandu,Female,1995-08-09,Sports,44657,2025-11-27,Organic,standard,Monthly,2027-02-25,2026-06-06,Switched to competitor,28.99,684.0,74,1,353.0,2026-05-29,Y,1.0,2.0
+0354-CJUPY,Gaurav Shah,Nepal,Gandaki,Female,2002-06-01,Sports,33751,2023-11-27,Refferal,premium,Monthly,2027-03-02,,,20.99,662.0,28,0,,,,,
+0355-BPFIU,Sarah Gupta,Nepal,Kathmandu,Male,1998-12-12,Sports,44680,2024-09-11,Organic,premium,Annually,2027-05-15,,,13.99,1045.0,8,0,260.0,2026-01-22,N,4.0,1.0
+0356-ZLWED,Sunita Yadav,India,Tamil Nadu,Female,2001-05-25,Web Series,600103,2024-03-21,Paid,basic,Annually,2026-11-03,,,20.99,121.0,15,0,,,,,
+0357-RIOGU,Neha Kumar,India,Assam,Male,1987-02-20,Web Series,781798,2025-03-03,Organic,premium,Annually,2026-11-23,2026-06-18,Content fatigue,12.99,1379.0,99,1,354.0,2026-06-13,Y,1.0,2.0
+0358-QEINL,Gaurav Joshi,Nepal,Gandaki,Female,1991-08-04,"Documentaries, Live TV",33758,2025-10-28,Organic,standard,Monthly,2027-03-27,,,20.99,1424.0,21,0,,,,,
+0359-NXGEJ,Amit Patel,India,Odisha,Male,1977-03-24,Web Series,751949,2024-02-05,Refferal,premium,Monthly,2026-12-20,2026-05-02,Switched to competitor,20.99,1194.0,95,1,126.0,2026-04-24,Y,2.0,1.0
+0360-YEWHH,Gaurav Gupta,Nepal,Lumbini,Male,1993-04-26,Web Series,32945,2023-10-18,Organic,premium,Monthly,2027-04-09,,,20.99,1020.0,2,0,,,,,
+0361-MQMMI,Ruhul Shah,Nepal,Koshi,Male,1986-07-13,Web Series,56745,2025-09-03,Organic,basic,Monthly,2027-05-23,,,12.99,628.0,30,0,261.0,2026-03-04,N,5.0,1.0
+0362-DAXQT,Anjali Patel,India,Kerala,Male,1974-11-13,"Movies, Sports",695873,2024-01-09,Organic,standard,Monthly,2027-01-16,,,27.99,1246.0,63,0,262.0,2025-12-03,Y,3.0,1.0
+0363-COXQT,Aisha Sharma,India,Delhi,Male,1997-06-25,"Movies, Sports",110480,2024-10-17,Organic,premium,Monthly,2027-04-05,,,11.99,902.0,13,0,263.0,2026-05-20,N,3.0,1.0
+0364-IZYDE,Priya Lama,Nepal,Kathmandu,Male,1986-02-20,Sports,44629,2025-04-13,Organic,standard,Annually,2026-10-15,,,18.99,893.0,4,0,,,,,
+0365-CZCZC,Sneha Singh,Nepal,Kathmandu,Female,2001-10-19,"Documentaries, Live TV",44612,2025-09-02,Organic,basic,Annually,2027-05-20,2026-06-25,Switched to competitor,17.99,859.0,87,1,127.0,2026-05-19,Y,3.0,1.0
+0366-IMXHE,Neha Singh,India,Punjab,Female,1985-11-19,Web Series,144278,2024-06-30,Organic,standard,Monthly,2026-07-27,,,15.99,232.0,10,0,264.0,2025-10-08,N,3.0,1.0
+0367-LRMDL,Ruhul Tamang,India,Tamil Nadu,Female,1977-02-06,"Movies, Sports",600685,2026-05-17,Paid,premium,Annually,2026-09-11,,,22.99,415.0,15,0,,,,,
+0368-CPYBJ,Neha Gupta,India,Maharashtra,Male,1996-07-18,"Documentaries, Live TV",400674,2026-07-03,Paid,basic,Monthly,2026-07-22,,,13.99,518.0,28,0,265.0,2026-02-19,N,5.0,1.0
+0369-KJNWD,Aisha Adhikari,India,Maharashtra,Female,1983-09-20,"Movies, Sports",400096,2025-05-16,Organic,standard,Monthly,2026-09-12,,,24.99,870.0,1,0,,,,,
+0370-FKHAP,Sneha Smith,India,Madhya Pradesh,Female,1995-10-14,"Documentaries, Live TV",462787,2025-06-23,Refferal,premium,Annually,2026-08-05,,,18.99,857.0,26,0,,,,,
+0371-IQSGU,Aisha Gupta,Nepal,Karnali,Male,1978-06-20,Sports,21295,2023-12-03,Organic,premium,Monthly,2027-02-22,2026-04-08,Content fatigue,24.99,1172.0,95,1,355.0,2026-04-03,Y,1.0,2.0
+0372-OXBWU,Priya Joshi,India,West Bengal,Female,1975-07-27,"Documentaries, Live TV",700292,2025-05-19,Refferal,premium,Annually,2026-09-03,,,12.99,1367.0,4,0,,,,,
+0373-ECEUO,Kavita Thapa,Nepal,Lumbini,Female,2000-04-05,"Movies, Sports",32925,2024-05-16,Organic,standard,Monthly,2026-09-12,,,11.99,156.0,24,0,,,,,
+0374-BLGQN,Pooja Tamang,India,Odisha,Male,2000-08-25,"Movies, Sports",751563,2023-12-18,Paid,basic,Annually,2027-02-07,,,22.99,977.0,24,0,,,,,
+0375-FDPHO,Arjun Lama,India,Delhi,Female,2002-03-22,"Documentaries, Live TV",110591,2024-07-04,Paid,premium,Annually,2026-07-21,,,19.99,539.0,22,0,,,,,
+0376-QVDSR,Ruhul Shrestha,Nepal,Gandaki,Male,1987-04-02,Web Series,33781,2024-04-19,Refferal,standard,Annually,2026-10-03,,,26.99,961.0,7,0,,,,,
+0377-FNIBI,Ravi Joshi,Nepal,Gandaki,Male,1999-09-14,"Movies, Sports",33700,2024-04-26,Paid,premium,Annually,2026-09-26,,,17.99,837.0,13,0,266.0,2026-01-30,N,5.0,1.0
+0378-DRCEF,Pooja Gurung,Nepal,Madhesh,Female,1974-11-03,Sports,44363,2023-10-22,Refferal,basic,Annually,2027-04-01,,,20.99,303.0,21,0,267.0,2025-12-26,N,5.0,1.0
+0379-XCSNY,Neha Shrestha,Nepal,Sudurpashchim,Female,1985-07-02,Web Series,10980,2025-06-22,Refferal,standard,Annually,2026-07-31,,,10.99,1393.0,28,0,,,,,
+0380-IGOFR,Anjali Tamang,India,West Bengal,Male,1987-07-15,"Documentaries, Live TV",700454,2024-02-16,Refferal,standard,Monthly,2026-12-05,,,20.99,600.0,16,0,,,,,
+0381-WXKKR,Rohan Rai,Nepal,Sudurpashchim,Female,1984-05-20,Sports,10963,2023-10-26,Paid,premium,Annually,2027-03-30,,,10.99,691.0,16,0,268.0,2025-12-28,N,3.0,1.0
+0382-IYYNV,Sunita Karki,Nepal,Kathmandu,Female,1988-12-03,Sports,44644,2025-09-11,Organic,standard,Annually,2027-05-15,2026-06-15,Too expensive,16.99,449.0,82,1,356.0,2026-06-07,Y,1.0,2.0
+0383-SGDSJ,Ravi Karki,India,Telangana,Female,1988-04-11,"Documentaries, Live TV",500395,2023-12-22,Paid,standard,Monthly,2027-02-05,,,22.99,1418.0,29,0,,,,,
+0384-OUSGK,Kiran Magar,Nepal,Koshi,Male,1984-02-19,Web Series,56789,2026-05-09,Refferal,premium,Annually,2026-09-17,2026-06-15,Too expensive,20.99,155.0,93,1,130.0,2026-06-11,Y,2.0,2.0
+0385-XBMPX,Pooja Shah,India,Punjab,Female,1979-03-22,"Documentaries, Live TV",144710,2023-12-28,Refferal,basic,Monthly,2027-01-30,,,16.99,658.0,20,0,,,,,
+0386-BWFKG,Priya Chaudhary,India,Karnataka,Male,1980-10-18,Web Series,560184,2026-05-26,Refferal,standard,Monthly,2026-09-02,,,17.99,1182.0,25,0,,,,,
+0387-RWRRT,Kavita Tamang,India,Maharashtra,Female,1992-10-08,Web Series,400827,2025-11-30,Paid,basic,Monthly,2027-02-20,,,9.99,1454.0,12,0,,,,,
+0388-KKVUI,Kavita Thapa,India,Odisha,Male,1992-12-09,Web Series,751429,2024-10-20,Paid,basic,Monthly,2027-04-02,,,20.99,1578.0,28,0,,,,,
+0389-CSAAI,Kiran Magar,Nepal,Gandaki,Male,1995-06-15,Sports,33721,2024-02-07,Refferal,premium,Annually,2026-12-16,,,17.99,319.0,18,0,,,,,
+0390-REFUW,Sneha Chaudhary,India,Telangana,Female,1984-07-03,Sports,500529,2026-05-15,Paid,premium,Annually,2026-09-09,2026-05-01,Switched to competitor,20.99,1111.0,10,1,131.0,2026-04-23,N,3.0,1.0
+0391-QSJKL,Kiran Lama,India,Telangana,Male,1998-08-25,"Movies, Sports",500234,2025-09-19,Organic,basic,Annually,2027-05-09,,,17.99,545.0,22,0,,,,,
+0392-MEMXV,John Singh,Nepal,Lumbini,Male,1985-07-02,"Movies, Sports",32949,2026-02-15,Organic,basic,Monthly,2026-12-09,2026-05-13,Too expensive,27.99,1060.0,79,1,358.0,2026-05-03,Y,1.0,2.0
+0393-PIHVQ,Priya Thapa,India,Assam,Female,1993-12-27,Web Series,781846,2025-01-24,Refferal,basic,Annually,2026-12-29,,,10.99,865.0,1,0,269.0,2025-12-20,N,4.0,1.0
+0394-EUEUQ,Sneha Shrestha,Nepal,Koshi,Female,1994-10-13,Sports,56755,2023-12-17,Paid,basic,Annually,2027-02-06,,,23.99,853.0,16,0,270.0,2026-07-11,N,5.0,1.0
+0395-SDXUK,Sarah Patel,Nepal,Karnali,Male,1998-12-09,Sports,21252,2024-06-26,Organic,standard,Monthly,2026-07-29,,,14.99,1430.0,14,0,,,,,
+0396-DXDHV,Sanjay Karki,Nepal,Koshi,Male,1972-02-15,Web Series,56713,2023-10-18,Paid,premium,Monthly,2027-04-09,,,23.99,800.0,20,0,271.0,2025-11-01,N,3.0,1.0
+0397-NVXHH,Amit Sharma,Nepal,Kathmandu,Male,2005-05-22,"Movies, Sports",44676,2024-04-02,Paid,basic,Monthly,2026-10-26,2026-04-09,Content fatigue,23.99,1366.0,99,1,133.0,2026-03-09,Y,2.0,1.0
+0398-PTAUD,Rohan Yadav,Nepal,Gandaki,Female,1994-02-26,"Documentaries, Live TV",33789,2024-06-17,Refferal,premium,Monthly,2026-08-05,,,15.99,1192.0,6,0,272.0,2025-10-12,N,4.0,1.0
+0399-GPUMD,Sunita Singh,Nepal,Gandaki,Female,1990-01-12,Sports,33776,2023-08-19,Refferal,basic,Monthly,2027-06-06,2026-06-30,Content fatigue,24.99,1310.0,81,1,134.0,2026-06-02,Y,3.0,1.0
+0400-NXQHK,Amit Shrestha,India,Kerala,Male,1988-03-22,Sports,695948,2025-11-09,Organic,basic,Monthly,2027-03-15,,,10.99,646.0,7,0,,,,,
+0401-LPOHW,Kavita Gurung,India,Assam,Female,2002-10-23,Sports,781283,2025-06-17,Paid,premium,Annually,2026-08-07,,,28.99,175.0,7,0,273.0,2026-04-09,N,4.0,1.0
+0402-LRXSI,Rohan Joshi,India,Tamil Nadu,Male,1982-07-23,Sports,600228,2025-08-23,Refferal,basic,Annually,2027-06-05,,,10.99,327.0,20,0,,,,,
+0403-RRFWF,Amit Gurung,India,West Bengal,Male,1973-06-19,"Documentaries, Live TV",700196,2025-11-30,Paid,premium,Annually,2027-02-20,2026-04-30,Too expensive,20.99,749.0,82,1,359.0,2026-04-27,Y,1.0,2.0
+0404-NDDMS,Pooja Shrestha,Nepal,Bagmati,Male,1994-04-22,Sports,44790,2023-11-13,Paid,premium,Annually,2027-03-14,,,23.99,987.0,15,0,274.0,2026-02-17,N,4.0,1.0
+0405-KWPPF,Rahul Singh,Nepal,Madhesh,Female,1979-12-31,"Movies, Sports",44312,2024-11-22,Organic,standard,Annually,2027-02-28,,,15.99,1139.0,12,0,275.0,2025-09-22,N,4.0,1.0
+0406-DTBIW,Ravi Shrestha,India,West Bengal,Male,1980-12-03,"Movies, Sports",700820,2025-10-09,Refferal,basic,Monthly,2027-04-13,2026-04-13,Content fatigue,9.99,1256.0,81,1,136.0,2026-04-08,Y,3.0,1.0
+0407-GXSGT,Priya Lama,India,Karnataka,Female,1992-02-20,"Movies, Sports",560568,2025-03-25,Paid,basic,Annually,2026-10-30,2026-05-05,Content fatigue,24.99,107.0,18,1,137.0,2026-03-26,N,2.0,1.0
+0408-UKOKV,Neha Gupta,Nepal,Sudurpashchim,Female,1972-11-04,Web Series,10943,2026-01-10,Paid,premium,Monthly,2027-01-10,2026-04-21,Content fatigue,18.99,296.0,82,1,360.0,2026-04-14,Y,1.0,2.0
+0409-YISFU,Ravi Gupta,Nepal,Lumbini,Male,1980-06-13,"Movies, Sports",32934,2025-03-03,Paid,standard,Monthly,2026-11-23,,,20.99,676.0,5,0,276.0,2025-12-14,N,3.0,1.0
+0410-YIUKB,Kiran Singh,India,Tamil Nadu,Male,1991-08-12,"Movies, Sports",600499,2024-09-25,Organic,basic,Monthly,2027-05-01,,,16.99,1280.0,11,0,277.0,2026-02-20,N,5.0,1.0
+0411-ZSEDE,Kiran Sharma,India,Bihar,Male,1977-09-13,"Movies, Sports",800930,2026-03-01,Organic,premium,Monthly,2026-11-27,,,14.99,1330.0,14,0,278.0,2026-06-14,N,4.0,1.0
+0412-XAOZE,Arjun Shrestha,Nepal,Bagmati,Female,1983-11-05,Sports,44736,2026-03-24,Refferal,standard,Monthly,2026-11-02,,,13.99,246.0,4,0,,,,,
+0413-OATVE,Vikram Maharjan,India,Odisha,Male,1973-03-19,Web Series,751278,2025-06-26,Paid,premium,Annually,2026-07-31,,,18.99,591.0,23,0,,,,,
+0414-MGGPP,Sarah Chaudhary,India,Karnataka,Female,1976-12-07,"Documentaries, Live TV",560637,2026-04-25,Refferal,standard,Monthly,2026-10-03,,,22.99,208.0,66,0,279.0,2026-05-21,Y,5.0,1.0
+0415-QOFUW,Sunita Gupta,Nepal,Koshi,Male,1990-07-06,"Documentaries, Live TV",56763,2024-12-18,Organic,standard,Monthly,2027-02-08,2026-04-29,Content fatigue,16.99,544.0,86,1,361.0,2026-04-23,Y,1.0,2.0
+0416-NRXDK,Rahul Karki,Nepal,Kathmandu,Male,1974-09-05,"Documentaries, Live TV",44637,2024-10-06,Paid,basic,Annually,2027-04-22,,,19.99,1525.0,10,0,,,,,
+0417-VOBOV,Ravi Yadav,India,Madhya Pradesh,Male,1989-04-02,"Movies, Sports",462753,2023-10-18,Organic,basic,Annually,2027-04-07,,,9.99,713.0,28,0,,,,,
+0418-MSZVT,Ruhul Rai,Nepal,Kathmandu,Male,2003-04-19,"Documentaries, Live TV",44612,2024-10-27,Organic,premium,Annually,2027-03-26,,,12.99,1133.0,6,0,280.0,2026-05-07,N,3.0,1.0
+0419-AHTPV,Rohan Rai,Nepal,Sudurpashchim,Male,1989-03-08,"Movies, Sports",10947,2026-05-02,Paid,standard,Monthly,2026-09-22,,,11.99,676.0,1,0,,,,,
+0420-XBSON,Rohan Adhikari,India,Assam,Female,1987-12-28,Sports,781708,2024-05-26,Organic,premium,Monthly,2026-09-02,,,14.99,1010.0,18,0,,,,,
+0421-GYZDT,Aisha Gurung,Nepal,Koshi,Female,1991-10-30,Web Series,56703,2024-06-12,Paid,premium,Annually,2026-08-14,,,17.99,359.0,30,0,281.0,2025-12-05,N,5.0,1.0
+0422-UKHIJ,Sneha Shrestha,Nepal,Madhesh,Male,2001-12-04,Sports,44399,2026-05-26,Refferal,premium,Monthly,2026-09-02,,,23.99,816.0,20,0,,,,,
+0423-ZFCBE,Pooja Maharjan,India,West Bengal,Male,2001-08-10,Sports,700015,2025-01-16,Paid,basic,Annually,2027-01-04,2026-05-12,Content fatigue,27.99,767.0,15,1,140.0,2026-04-19,N,2.0,1.0
+0424-CUDWV,Pooja Patel,Nepal,Karnali,Male,2000-09-04,"Documentaries, Live TV",21216,2026-03-28,Organic,premium,Annually,2026-10-27,2026-06-02,Switched to competitor,22.99,995.0,83,1,362.0,2026-05-26,Y,1.0,2.0
+0425-USFUD,Rohan Gurung,India,Assam,Female,1989-12-18,"Movies, Sports",781242,2024-10-14,Refferal,premium,Annually,2027-04-14,2026-05-19,Content fatigue,28.99,833.0,87,1,363.0,2026-05-14,Y,1.0,2.0
+0426-VTNEI,Sneha Joshi,Nepal,Koshi,Female,1975-01-26,"Documentaries, Live TV",56778,2026-02-04,Paid,standard,Monthly,2026-12-18,,,21.99,1326.0,17,0,282.0,2026-04-20,N,5.0,1.0
+0427-VMCFM,John Singh,India,Assam,Female,1987-06-16,"Movies, Sports",781441,2025-05-13,Organic,basic,Annually,2026-09-11,,,28.99,181.0,4,0,283.0,2025-12-26,N,5.0,1.0
+0428-WERRC,Ravi Joshi,Nepal,Madhesh,Female,1986-06-22,"Documentaries, Live TV",44395,2026-04-24,Organic,premium,Monthly,2026-10-02,,,17.99,566.0,27,0,,,,,
+0429-GZGIL,Rohan Joshi,Nepal,Gandaki,Female,2000-06-05,"Documentaries, Live TV",33768,2024-08-29,Organic,premium,Annually,2027-05-24,,,12.99,707.0,30,0,284.0,2026-01-03,N,3.0,1.0
+0430-IVUIV,Vikram Shah,Nepal,Kathmandu,Female,1998-06-06,Sports,44641,2026-02-22,Refferal,basic,Annually,2026-12-04,2026-06-24,Content fatigue,14.99,173.0,95,1,364.0,2026-06-19,Y,1.0,2.0
+0431-GXPQK,John Kumar,India,Madhya Pradesh,Female,1976-06-02,"Movies, Sports",462589,2026-03-27,Organic,standard,Annually,2026-10-28,2026-06-21,Too expensive,11.99,1107.0,78,1,144.0,2026-06-14,Y,1.0,1.0
+0432-EUHYN,Pooja Shah,Nepal,Madhesh,Female,1993-06-26,Web Series,44335,2023-11-25,Paid,premium,Annually,2027-02-28,2026-06-18,Too expensive,22.99,1449.0,87,1,365.0,2026-06-17,Y,1.0,2.0
+0433-YRJWT,Arjun Maharjan,India,Tamil Nadu,Male,1984-03-28,"Documentaries, Live TV",600046,2025-10-16,Refferal,premium,Monthly,2027-04-06,2026-05-20,Switched to competitor,20.99,172.0,72,1,146.0,2026-05-04,Y,2.0,1.0
+0434-IRKIE,Sarah Smith,India,Maharashtra,Male,1993-04-21,Web Series,400209,2024-03-12,Paid,premium,Monthly,2026-11-16,2026-04-08,Too expensive,20.99,1536.0,74,1,366.0,2026-04-06,Y,1.0,2.0
+0435-CRVKY,Sarah Tamang,Nepal,Koshi,Female,2000-09-18,Web Series,56709,2025-04-27,Organic,basic,Monthly,2026-10-01,,,13.99,790.0,24,0,285.0,2026-06-15,N,3.0,1.0
+0436-OTTDI,Sarah Thapa,Nepal,Gandaki,Female,1998-12-21,Web Series,33773,2024-07-08,Refferal,premium,Annually,2026-07-17,,,15.99,1399.0,11,0,,,,,
+0437-KHPKX,Sunita Patel,India,Rajasthan,Male,1974-02-06,Sports,302610,2023-08-11,Paid,standard,Monthly,2027-06-14,,,19.99,1458.0,12,0,,,,,
+0438-OZPIM,Anjali Chaudhary,India,Karnataka,Male,1992-10-12,Web Series,560923,2023-12-19,Paid,basic,Annually,2027-02-08,,,19.99,435.0,17,0,,,,,
+0439-KOTFC,Amit Karki,Nepal,Karnali,Female,1974-12-07,Web Series,21263,2024-09-23,Organic,basic,Monthly,2027-04-29,,,15.99,1506.0,14,0,,,,,
+0440-UYYDN,Ravi Maharjan,Nepal,Gandaki,Male,1977-04-13,"Documentaries, Live TV",33734,2025-09-26,Organic,premium,Annually,2027-04-30,,,10.99,189.0,19,0,,,,,
+0441-RFFYT,John Magar,Nepal,Kathmandu,Male,1982-07-25,"Movies, Sports",44634,2025-10-31,Organic,premium,Annually,2027-03-22,,,24.99,199.0,26,0,286.0,2026-03-28,N,3.0,1.0
+0442-ETGQG,Amit Singh,India,Gujarat,Female,1985-09-29,Sports,395506,2025-09-26,Paid,standard,Annually,2027-04-30,,,14.99,457.0,6,0,,,,,
+0443-ZQBDX,Priya Sharma,India,West Bengal,Female,1992-06-30,"Movies, Sports",700642,2025-10-05,Organic,premium,Annually,2027-04-23,,,21.99,929.0,14,0,,,,,
+0444-AJNZM,Ruhul Smith,Nepal,Koshi,Female,1987-02-19,"Movies, Sports",56725,2025-06-16,Paid,premium,Monthly,2026-08-12,2026-06-23,Switched to competitor,12.99,412.0,20,1,148.0,2026-06-19,N,2.0,1.0
+0445-OPZPD,Sneha Tamang,Nepal,Madhesh,Female,2000-06-29,Web Series,44396,2026-03-30,Organic,standard,Monthly,2026-10-25,,,9.99,1142.0,20,0,,,,,
+0446-GVRMD,Anjali Yadav,Nepal,Madhesh,Female,1987-08-05,Sports,44318,2023-09-10,Paid,basic,Annually,2027-05-19,,,13.99,951.0,14,0,287.0,2026-03-23,N,4.0,1.0
+0447-CISRL,Sanjay Adhikari,Nepal,Lumbini,Male,1995-05-16,"Movies, Sports",32964,2025-10-04,Organic,standard,Monthly,2027-04-22,2026-06-23,Content fatigue,10.99,274.0,100,1,367.0,2026-06-14,Y,1.0,2.0
+0448-FWOML,Amit Rai,India,Punjab,Male,2005-04-26,Sports,144368,2024-02-03,Paid,basic,Monthly,2026-12-18,2026-06-28,Too expensive,10.99,1078.0,24,1,150.0,2026-05-13,N,2.0,1.0
+0449-DNPET,Kavita Gurung,India,West Bengal,Male,1987-10-17,Sports,700748,2026-06-02,Paid,basic,Annually,2026-08-26,,,23.99,383.0,28,0,,,,,
+0450-PNGAX,Ravi Adhikari,Nepal,Lumbini,Female,2005-12-12,"Movies, Sports",32948,2023-09-05,Paid,basic,Annually,2027-05-18,,,15.99,1211.0,2,0,,,,,
+0451-WLFNE,Rahul Singh,India,Odisha,Male,1988-09-04,Web Series,751438,2024-10-31,Paid,basic,Monthly,2027-03-26,,,13.99,990.0,20,0,,,,,
+0452-PRNNX,Sunita Chaudhary,India,Karnataka,Male,1999-12-11,Sports,560668,2024-10-02,Refferal,standard,Annually,2027-04-26,,,9.99,223.0,13,0,,,,,
+0453-UMUPY,Kavita Magar,India,Gujarat,Male,1988-06-16,Sports,395892,2023-08-14,Organic,basic,Monthly,2027-06-13,2026-06-11,Too expensive,16.99,628.0,80,1,151.0,2026-06-07,Y,2.0,1.0
+0454-DRRND,Neha Thapa,Nepal,Koshi,Male,1997-10-25,Web Series,56796,2026-06-27,Paid,premium,Annually,2026-08-01,,,13.99,1535.0,30,0,288.0,2026-07-01,N,5.0,1.0
+0455-PMNIS,Priya Gupta,India,Uttar Pradesh,Male,1978-10-14,Web Series,226333,2023-12-24,Organic,premium,Annually,2027-02-01,2026-06-18,Too expensive,9.99,1015.0,83,1,152.0,2026-04-26,Y,2.0,1.0
+0456-EZVHC,Sneha Sharma,India,Assam,Male,1998-07-18,"Documentaries, Live TV",781492,2026-06-05,Paid,basic,Annually,2026-08-23,2026-05-23,Switched to competitor,13.99,377.0,93,1,153.0,2026-04-16,Y,3.0,1.0
+0457-NSIEY,Anjali Magar,India,Kerala,Male,1992-08-08,Sports,695699,2024-01-03,Paid,standard,Monthly,2027-01-24,2026-04-09,Too expensive,14.99,1366.0,72,1,368.0,2026-04-05,Y,1.0,2.0
+0458-MSGSW,John Yadav,India,Tamil Nadu,Female,1976-02-16,Web Series,600072,2025-12-28,Paid,basic,Annually,2027-01-29,,,21.99,733.0,7,0,289.0,2026-05-10,N,3.0,1.0
+0459-PQBGX,Aisha Shah,Nepal,Sudurpashchim,Male,1971-12-03,Web Series,10917,2024-11-20,Organic,basic,Annually,2027-03-08,,,21.99,1031.0,15,0,,,,,
+0460-AGPZL,Neha Magar,Nepal,Madhesh,Female,1977-06-07,"Movies, Sports",44316,2026-02-01,Paid,premium,Monthly,2026-12-19,,,14.99,1012.0,1,0,,,,,
+0461-LSXEE,Kiran Thapa,India,Punjab,Female,1989-04-12,"Documentaries, Live TV",144890,2023-10-15,Paid,standard,Monthly,2027-04-08,,,19.99,1224.0,23,0,,,,,
+0462-ONROX,Gaurav Gurung,India,Tamil Nadu,Male,1988-05-13,"Movies, Sports",600899,2023-12-16,Paid,standard,Monthly,2027-02-11,,,25.99,822.0,5,0,,,,,
+0463-MGIKO,Ruhul Singh,India,Maharashtra,Male,1991-04-20,"Documentaries, Live TV",400279,2025-06-12,Paid,basic,Monthly,2026-08-16,,,20.99,1456.0,3,0,,,,,
+0464-ZPRKL,Rahul Tamang,India,Delhi,Female,1987-06-18,Web Series,110275,2025-11-11,Refferal,basic,Annually,2027-03-13,2026-05-16,Too expensive,25.99,1001.0,90,1,369.0,2026-05-15,Y,1.0,2.0
+0465-GSHVT,Sarah Chaudhary,Nepal,Bagmati,Female,1998-06-16,"Documentaries, Live TV",44728,2025-12-01,Paid,basic,Annually,2027-02-25,,,14.99,1255.0,17,0,,,,,
+0466-BRIFQ,Aisha Sharma,Nepal,Sudurpashchim,Male,1976-04-03,"Documentaries, Live TV",10993,2025-05-23,Paid,basic,Annually,2026-08-30,,,26.99,1157.0,24,0,,,,,
+0467-YIYBL,Rahul Gupta,India,Gujarat,Female,1996-01-14,"Movies, Sports",395093,2025-06-09,Organic,standard,Monthly,2026-08-17,,,21.99,1048.0,18,0,,,,,
+0468-NIYQD,Vikram Smith,India,Bihar,Female,1994-02-16,"Documentaries, Live TV",800328,2025-01-03,Refferal,basic,Annually,2027-01-21,,,24.99,1163.0,4,0,,,,,
+0469-RAGPJ,Priya Shrestha,India,Uttar Pradesh,Female,1977-07-05,Sports,226552,2023-11-10,Paid,standard,Monthly,2027-03-15,,,14.99,356.0,21,0,,,,,
+0470-HUREJ,Pooja Rai,India,Assam,Male,1985-09-13,"Movies, Sports",781284,2026-02-15,Organic,standard,Monthly,2026-12-09,2026-06-22,Switched to competitor,21.99,328.0,93,1,156.0,2026-06-17,Y,2.0,1.0
+0471-PXQIS,Neha Shrestha,Nepal,Bagmati,Female,1999-05-31,"Documentaries, Live TV",44763,2025-05-29,Organic,standard,Monthly,2026-08-26,,,26.99,632.0,22,0,290.0,2026-01-29,N,3.0,1.0
+0472-DEAKA,Amit Lama,India,Delhi,Male,1981-02-10,Sports,110453,2026-05-11,Organic,basic,Annually,2026-09-17,,,20.99,929.0,22,0,291.0,2025-10-03,N,5.0,1.0
+0473-IRNQG,Aisha Lama,India,Madhya Pradesh,Female,1990-06-15,Sports,462942,2023-07-18,Refferal,premium,Monthly,2027-07-12,,,17.99,1548.0,25,0,292.0,2026-04-28,N,4.0,1.0
+0474-SJFKA,Pooja Singh,India,Bihar,Male,1988-08-14,"Movies, Sports",800906,2024-08-23,Refferal,standard,Monthly,2027-05-30,,,21.99,1450.0,28,0,,,,,
+0475-TFSCV,John Kumar,Nepal,Bagmati,Female,1979-11-21,"Documentaries, Live TV",44764,2024-06-27,Paid,standard,Annually,2026-08-01,,,12.99,1549.0,23,0,293.0,2025-11-20,N,3.0,1.0
+0476-UMBFX,Rahul Gurung,Nepal,Gandaki,Male,1980-04-25,Web Series,33780,2024-09-06,Paid,premium,Monthly,2027-05-22,,,21.99,324.0,26,0,,,,,
+0477-PYCKM,Kiran Smith,India,Tamil Nadu,Male,2005-04-09,"Documentaries, Live TV",600477,2026-05-29,Organic,basic,Monthly,2026-08-26,,,26.99,480.0,13,0,294.0,2026-02-18,N,5.0,1.0
+0478-NCSTR,Sunita Chaudhary,Nepal,Bagmati,Female,1998-06-28,"Movies, Sports",44732,2026-01-07,Organic,basic,Annually,2027-01-13,,,21.99,355.0,10,0,295.0,2026-02-15,N,3.0,1.0
+0479-OQYCU,Sanjay Tamang,Nepal,Sudurpashchim,Male,1994-03-23,Web Series,10951,2026-06-30,Paid,standard,Monthly,2026-07-27,,,18.99,1566.0,10,0,,,,,
+0480-PKUSE,Anjali Shrestha,India,Kerala,Female,2000-12-07,"Movies, Sports",695830,2025-01-30,Organic,premium,Annually,2026-12-21,2026-04-26,Too expensive,11.99,563.0,88,1,370.0,2026-04-20,Y,1.0,2.0
+0481-XOGTV,Sneha Thapa,Nepal,Koshi,Female,1978-03-05,"Movies, Sports",56713,2024-05-09,Organic,basic,Annually,2026-09-19,,,21.99,547.0,6,0,,,,,
+0482-ZBPPN,Sneha Singh,Nepal,Gandaki,Male,2000-10-17,"Documentaries, Live TV",33786,2026-06-10,Paid,premium,Monthly,2026-08-18,,,19.99,352.0,13,0,296.0,2026-04-02,N,3.0,1.0
+0483-SUTQE,Sarah Karki,India,Assam,Female,1999-04-20,"Movies, Sports",781689,2025-12-11,Organic,basic,Annually,2027-02-13,2026-06-11,Too expensive,23.99,1531.0,83,1,158.0,2026-05-31,Y,1.0,1.0
+0484-JRYST,Neha Adhikari,Nepal,Madhesh,Female,1996-09-23,"Movies, Sports",44302,2025-11-29,Organic,standard,Annually,2027-02-27,,,23.99,293.0,4,0,297.0,2026-04-30,N,4.0,1.0
+0485-QJAAR,Ravi Gupta,India,Rajasthan,Female,1987-11-28,"Documentaries, Live TV",302378,2026-06-01,Refferal,basic,Monthly,2026-08-25,,,21.99,1440.0,29,0,,,,,
+0486-IRLSJ,Gaurav Smith,India,Tamil Nadu,Male,1976-10-28,"Movies, Sports",600568,2026-03-14,Organic,premium,Monthly,2026-11-14,,,18.99,412.0,63,0,298.0,2026-02-02,Y,3.0,1.0
+0487-HNLPA,Aisha Yadav,India,Telangana,Female,1989-06-15,"Documentaries, Live TV",500826,2024-11-19,Paid,basic,Annually,2027-03-09,2026-04-20,Too expensive,19.99,239.0,82,1,159.0,2026-03-04,Y,1.0,1.0
+0488-GNKIT,Rahul Rai,Nepal,Koshi,Female,1993-04-27,"Movies, Sports",56757,2024-11-25,Refferal,premium,Monthly,2027-03-03,,,28.99,1074.0,4,0,299.0,2025-10-03,N,3.0,1.0
+0489-ARDYM,Sanjay Chaudhary,India,Uttar Pradesh,Female,1976-11-08,Web Series,226611,2024-01-23,Refferal,premium,Monthly,2026-12-29,2026-07-07,Switched to competitor,10.99,368.0,79,1,160.0,2026-05-26,Y,1.0,1.0
+0490-ZJITI,John Singh,India,West Bengal,Female,1989-05-10,Web Series,700404,2026-04-07,Organic,basic,Annually,2026-10-15,2026-05-08,Too expensive,23.99,667.0,27,1,161.0,2026-03-18,N,1.0,1.0
+0491-SPWRL,Ravi Kumar,India,Gujarat,Male,1971-07-28,Web Series,395161,2025-10-26,Refferal,premium,Monthly,2027-03-29,,,26.99,1510.0,1,0,,,,,
+0492-QLEIO,Ruhul Joshi,India,Telangana,Female,1993-12-31,"Movies, Sports",500050,2024-02-16,Organic,basic,Monthly,2026-12-09,,,26.99,344.0,19,0,300.0,2026-07-12,N,5.0,1.0
+0493-HSSOJ,Amit Yadav,India,Assam,Female,1973-02-15,Web Series,781561,2024-04-15,Organic,standard,Monthly,2026-10-07,,,10.99,1492.0,26,0,,,,,
+0494-OBVJN,Kavita Shah,Nepal,Sudurpashchim,Female,1986-08-16,"Movies, Sports",10912,2026-01-01,Paid,basic,Annually,2027-01-25,,,25.99,739.0,3,0,,,,,
+0495-SOUKN,Sunita Yadav,India,Maharashtra,Female,1981-02-23,Sports,400993,2025-10-25,Organic,premium,Monthly,2027-03-28,,,20.99,946.0,24,0,,,,,
+0496-CZLJT,Sunita Smith,India,Odisha,Female,1989-02-19,"Movies, Sports",751071,2023-11-14,Paid,premium,Annually,2027-03-15,,,23.99,203.0,9,0,,,,,
+0497-LLFIP,Vikram Singh,India,Punjab,Female,1975-09-20,"Movies, Sports",144228,2025-10-15,Organic,basic,Annually,2027-04-11,2026-04-20,Switched to competitor,9.99,359.0,80,1,162.0,2026-04-15,Y,3.0,2.0
+0498-QDOFC,Anjali Karki,India,Madhya Pradesh,Male,1973-05-12,Sports,462315,2024-09-18,Organic,standard,Monthly,2027-05-06,2026-07-11,Too expensive,28.99,936.0,74,1,163.0,2026-06-21,Y,3.0,1.0
+0499-MWYTQ,Ravi Singh,India,Assam,Male,1988-04-15,"Movies, Sports",781299,2025-08-06,Refferal,standard,Annually,2027-06-16,,,27.99,1125.0,17,0,301.0,2025-10-16,N,5.0,1.0
+0500-NOYFI,Anjali Yadav,India,Delhi,Male,1985-07-11,"Movies, Sports",110043,2024-02-12,Refferal,standard,Annually,2026-12-09,2026-06-17,Content fatigue,18.99,309.0,93,1,372.0,2026-06-12,Y,1.0,2.0
